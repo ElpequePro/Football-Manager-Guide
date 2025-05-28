@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: GT-America;
+  src: url(assets/fonts/GT-America-Standard-Regular-Trial.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GT-America;
+}
+
+:root {
+  --bg-color: #111;
+  --primary: #1e88e5;
+  --secondary: #0d47a1;
+  --accent: #64b5f6;
+  --text: #e0e0e0;
+  --card-bg: #1e1e1e;
+
+  --red: #FF5555;
+  --blue: #77BBFF;
+  --green: #55DD55;
+
+  --red-desaturated: #CC4444;
+  --blue-desaturated: #66AADD;
+  --green-desaturated: #44BB44;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text);
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.5;
 }

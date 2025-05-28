@@ -1,0 +1,143 @@
+h1 {
+  color: var(--primary);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: var(--accent);
+  border-bottom: 2px solid var(--secondary);
+  padding-bottom: 8px;
+  margin-top: 40px;
+  font-size: 1.8rem;
+}
+
+article {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+  .role-title {
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    margin-bottom: 25px;
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+
+  section {
+    margin: 25px 0 35px;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+
+    .mentality-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+
+      .mentality-title {
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        background-color: rgba(0, 0, 0, 0.2);
+
+        &.defend {
+          color: var(--red);
+          border: 1px solid var(--red);
+        }
+
+        &.support {
+          color: var(--blue);
+          border: 1px solid var(--blue);
+        }
+
+        &.attack {
+          color: var(--green);
+          border: 1px solid var(--green);
+        }
+      }
+
+      .rating-container {
+        display: flex;
+        gap: 8px;
+
+        .rating {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 20px;
+          background-color: #333;
+          padding: 8px 12px;
+
+          div {
+            display: flex;
+            gap: 4px;
+
+            span {
+              display: flex;
+              align-items: center;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    .mentality-instructions {
+      display: flex;
+      gap: 12px;
+      list-style: none;
+      color: var(--green-desaturated);
+      flex-wrap: wrap;
+
+      .no-instructions {
+        color: #666;
+      }
+    }
+
+    .mentality-description {
+      margin: 15px 0;
+      line-height: 1.7;
+    }
+
+    .heatmap {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 6px;
+      margin: 20px 0;
+      display: block;
+      border: 1px solid #333;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .mentality-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .rating-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
