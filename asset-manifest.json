@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/football-manager-guide/static/css/main.f855e6bc.css",
+    "main.js": "/football-manager-guide/static/js/main.232bf95d.js",
+    "static/js/453.2a82e7ac.chunk.js": "/football-manager-guide/static/js/453.2a82e7ac.chunk.js",
+    "static/media/logo.svg": "/football-manager-guide/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/football-manager-guide/index.html",
+    "main.f855e6bc.css.map": "/football-manager-guide/static/css/main.f855e6bc.css.map",
+    "main.232bf95d.js.map": "/football-manager-guide/static/js/main.232bf95d.js.map",
+    "453.2a82e7ac.chunk.js.map": "/football-manager-guide/static/js/453.2a82e7ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.232bf95d.js"
+  ]
+}
