@@ -27,6 +27,12 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take Fewer Risks</li>
+                        <li>Cross From Deep</li>
+                        <li>Dribble Less</li>
+                        <li>Hold Position</li>
+                    </ul>
                     <p className="mentality-description">Focuses primarily on defensive duties, staying deep to protect the flank and mark opposition wide players. Rarely ventures forward.</p>
                     <img src="wm_defend_heatmap.jpg" alt="Wide Midfielder Defend Heatmap" className="heatmap" />
                 </section>
@@ -44,6 +50,9 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li className='no-instructions'>No Specific Instructions</li>
+                    </ul>
                     <p className="mentality-description">Balances defensive work with attacking contributions. Makes supporting runs and delivers crosses while tracking back.</p>
                     <img src="wm_support_heatmap.jpg" alt="Wide Midfielder Support Heatmap" className="heatmap" />
                 </section>
@@ -61,6 +70,9 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Get Further Forward</li>
+                    </ul>
                     <p className="mentality-description">More aggressive in positioning, frequently pushing forward to support attacks while maintaining defensive awareness.</p>
                     <img src="wm_attack_heatmap.jpg" alt="Wide Midfielder Attack Heatmap" className="heatmap" />
                 </section>
@@ -78,6 +90,9 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li className='no-instructions'>No Specific Instructions</li>
+                    </ul>
                     <p className="mentality-description">Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing the game.</p>
                     <img src="wm_auto_heatmap.jpg" alt="Wide Midfielder Automatic Heatmap" className="heatmap" />
                 </section>
@@ -99,6 +114,11 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Cross More Often</li>
+                        <li>Dribble More</li>
+                        <li>Stay Wider</li>
+                    </ul>
                     <p className="mentality-description">Stays wide to stretch defenses and deliver crosses while tracking back to help defensively when needed.</p>
                     <img src="winger_support_heatmap.jpg" alt="Winger Support Heatmap" className="heatmap" />
                 </section>
@@ -116,6 +136,13 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Cross More Often</li>
+                        <li>Cross From Byline</li>
+                        <li>Dribble More</li>
+                        <li>Get Further Forward</li>
+                        <li>Stay Wider</li>
+                    </ul>
                     <p className="mentality-description">Highly aggressive, constantly taking on defenders and delivering dangerous crosses. Defensive duties are secondary.</p>
                     <img src="winger_attack_heatmap.jpg" alt="Winger Attack Heatmap" className="heatmap" />
                 </section>
@@ -137,6 +164,13 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take Fewer Risks</li>
+                        <li>Cross From Deep</li>
+                        <li>Hold Position</li>
+                        <li>Close Down More</li>
+                        <li>Tackle Harder</li>
+                    </ul>
                     <p className="mentality-description">Focuses on pressing opponents high up the pitch and tracking back defensively while still providing width in attack.</p>
                     <img src="dw_defend_heatmap.jpg" alt="Defensive Winger Defend Heatmap" className="heatmap" />
                 </section>
@@ -154,6 +188,13 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Cross More Often</li>
+                        <li>Dribble More</li>
+                        <li>Stay Wider</li>
+                        <li>Close Down More</li>
+                        <li>Tackle Harder</li>
+                    </ul>
                     <p className="mentality-description">Aggressively presses opponents while contributing more to attacks through crosses and supporting runs.</p>
                     <img src="dw_support_heatmap.jpg" alt="Defensive Winger Support Heatmap" className="heatmap" />
                 </section>
@@ -175,6 +216,14 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Cross Less Often</li>
+                        <li>Cut Inside With Ball</li>
+                        <li>Shoot Less Often</li>
+                        <li>Roam From Position</li>
+                        <li>Sit Narrower</li>
+                    </ul>
                     <p className="mentality-description">Drops deep to receive the ball and create chances from wide areas while maintaining some defensive responsibility.</p>
                     <img src="wp_support_heatmap.jpg" alt="Wide Playmaker Support Heatmap" className="heatmap" />
                 </section>
@@ -192,6 +241,15 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Cross Less Often</li>
+                        <li>Dribble More</li>
+                        <li>Cut Inside With Ball</li>
+                        <li>Shoot Less Often</li>
+                        <li>Roam From Position</li>
+                        <li>Sit Narrower</li>
+                    </ul>
                     <p className="mentality-description">More aggressive in positioning, operating as the team's primary creative outlet from wide areas.</p>
                     <img src="wp_attack_heatmap.jpg" alt="Wide Playmaker Attack Heatmap" className="heatmap" />
                 </section>
@@ -213,6 +271,10 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Dribble More</li>
+                        <li>Cut Inside With Ball</li>
+                    </ul>
                     <p className="mentality-description">Cuts inside to link play and create chances while maintaining some defensive responsibility.</p>
                     <img src="iw_support_heatmap.jpg" alt="Inverted Winger Support Heatmap" className="heatmap" />
                 </section>
@@ -230,6 +292,11 @@ function WideMidfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Dribble More</li>
+                        <li>Cut Inside With Ball</li>
+                        <li>Get Further Forward</li>
+                    </ul>
                     <p className="mentality-description">Aggressively cuts inside to shoot or create chances, operating as a secondary striker at times.</p>
                     <img src="iw_attack_heatmap.jpg" alt="Inverted Winger Attack Heatmap" className="heatmap" />
                 </section>

@@ -27,6 +27,9 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Hold Position</li>
+                    </ul>
                     <p className="mentality-description">Focuses on defensive positioning and simple distribution. Stays deeper to protect the backline while recycling possession efficiently.</p>
                     <img src="cm_defend_heatmap.jpg" alt="Central Midfielder Defend Heatmap" className="heatmap" />
                 </section>
@@ -44,6 +47,9 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li className='no-instructions'>No Specific Instructions</li>
+                    </ul>
                     <p className="mentality-description">Balances defensive duties with attacking contributions. Makes supporting runs and participates in both phases of play.</p>
                     <img src="cm_support_heatmap.jpg" alt="Central Midfielder Support Heatmap" className="heatmap" />
                 </section>
@@ -61,6 +67,9 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Get Further Forward</li>
+                    </ul>
                     <p className="mentality-description">More adventurous in positioning, making forward runs to support attacks while still maintaining some defensive responsibility.</p>
                     <img src="cm_attack_heatmap.jpg" alt="Central Midfielder Attack Heatmap" className="heatmap" />
                 </section>
@@ -78,6 +87,9 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li className='no-instructions'>No Specific Instructions</li>
+                    </ul>
                     <p className="mentality-description">Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing the game.</p>
                     <img src="cm_auto_heatmap.jpg" alt="Central Midfielder Automatic Heatmap" className="heatmap" />
                 </section>
@@ -99,6 +111,11 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Dribble Less</li>
+                        <li>Shoot Less Often</li>
+                        <li>Hold Position</li>
+                    </ul>
                     <p className="mentality-description">Stays deep to receive the ball from defenders and initiate attacks with precise passing. Maintains defensive positioning while orchestrating play.</p>
                     <img src="dlp_defend_heatmap.jpg" alt="Deep Lying Playmaker Defend Heatmap" className="heatmap" />
                 </section>
@@ -116,6 +133,11 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Shoot Less Often</li>
+                        <li>Hold Position</li>
+                    </ul>
                     <p className="mentality-description">More adventurous in positioning, stepping into midfield to influence play while still providing defensive cover when needed.</p>
                     <img src="dlp_support_heatmap.jpg" alt="Deep Lying Playmaker Support Heatmap" className="heatmap" />
                 </section>
@@ -137,6 +159,9 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Roam From Position</li>
+                    </ul>
                     <p className="mentality-description">Covers every blade of grass, supporting attacks and tracking back defensively. The ultimate all-round midfield role.</p>
                     <img src="btb_support_heatmap.jpg" alt="Box To Box Midfielder Support Heatmap" className="heatmap" />
                 </section>
@@ -158,6 +183,10 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Shoot Less Often</li>
+                    </ul>
                     <p className="mentality-description">Drops deeper to receive the ball and dictate play between the lines, creating chances with vision and technique.</p>
                     <img src="ap_support_heatmap.jpg" alt="Advanced Playmaker Support Heatmap" className="heatmap" />
                 </section>
@@ -175,6 +204,11 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Dribble More</li>
+                        <li>Shoot Less Often</li>
+                    </ul>
                     <p className="mentality-description">More aggressive in positioning, operating closer to the opposition box to create goal-scoring opportunities.</p>
                     <img src="ap_attack_heatmap.jpg" alt="Advanced Playmaker Attack Heatmap" className="heatmap" />
                 </section>
@@ -196,6 +230,13 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take Fewer Risks</li>
+                        <li>Dribble Less</li>
+                        <li>Shoot Less Often</li>
+                        <li>Hold Position</li>
+                        <li>Tackle Harder</li>
+                    </ul>
                     <p className="mentality-description">Focuses purely on defensive duties, aggressively closing down opponents in midfield areas before making simple passes.</p>
                     <img src="bwm_defend_heatmap.jpg" alt="Ball Winning Midfielder Defend Heatmap" className="heatmap" />
                 </section>
@@ -213,6 +254,9 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Tackle Harder</li>
+                    </ul>
                     <p className="mentality-description">Presses higher up the pitch to win possession while still maintaining defensive responsibilities. More involved in transitional play.</p>
                     <img src="bwm_support_heatmap.jpg" alt="Ball Winning Midfielder Support Heatmap" className="heatmap" />
                 </section>
@@ -234,6 +278,10 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Roam From Position</li>
+                    </ul>
                     <p className="mentality-description">Constantly moves to find space and receive the ball, linking play between defense and attack with intelligent movement and passing.</p>
                     <img src="rp_support_heatmap.jpg" alt="Roaming Playmaker Support Heatmap" className="heatmap" />
                 </section>
@@ -255,6 +303,11 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Get Further Forward</li>
+                        <li>Roam From Position</li>
+                        <li>Move Into Channels</li>
+                    </ul>
                     <p className="mentality-description">Drifts wide to create overloads while making supporting runs into the box. Provides creativity and goal threat.</p>
                     <img src="mez_support_heatmap.jpg" alt="Mezzala Support Heatmap" className="heatmap" />
                 </section>
@@ -272,6 +325,12 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Get Further Forward</li>
+                        <li>Roam From Position</li>
+                        <li>Move Into Channels</li>
+                    </ul>
                     <p className="mentality-description">More aggressive with forward runs, frequently arriving in scoring positions while drifting wide to create chances.</p>
                     <img src="mez_attack_heatmap.jpg" alt="Mezzala Attack Heatmap" className="heatmap" />
                 </section>
@@ -293,6 +352,9 @@ function Midfielder() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Stay Wider</li>
+                    </ul>
                     <p className="mentality-description">Shuttles across midfield to provide defensive cover in wide areas while supporting attacks through intelligent positioning.</p>
                     <img src="car_support_heatmap.jpg" alt="Carrilero Support Heatmap" className="heatmap" />
                 </section>

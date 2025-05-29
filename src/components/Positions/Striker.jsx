@@ -27,6 +27,11 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Hold Up Ball</li>
+                        <li>Move Into Channels</li>
+                    </ul>
                     <p className="mentality-description">Drops deep to receive the ball and bring teammates into play while still making runs into the box when opportunities arise.</p>
                     <img src="dlf_support_heatmap.jpg" alt="Deep Lying Forward Support Heatmap" className="heatmap" />
                 </section>
@@ -44,6 +49,11 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Hold Up Ball</li>
+                        <li>Move Into Channels</li>
+                    </ul>
                     <p className="mentality-description">More aggressive in making forward runs after dropping deep, posing a greater direct goal threat while still linking play.</p>
                     <img src="dlf_attack_heatmap.jpg" alt="Deep Lying Forward Attack Heatmap" className="heatmap" />
                 </section>
@@ -65,6 +75,9 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Move Into Channels</li>
+                    </ul>
                     <p className="mentality-description">Constantly looks to break the defensive line and get into goalscoring positions with minimal defensive responsibilities.</p>
                     <img src="af_attack_heatmap.jpg" alt="Advanced Forward Attack Heatmap" className="heatmap" />
                 </section>
@@ -86,6 +99,10 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Dribble Less</li>
+                        <li>Hold Up Ball</li>
+                    </ul>
                     <p className="mentality-description">Focuses on winning aerial duels and holding up play to bring teammates into the game while contributing defensively.</p>
                     <img src="tf_support_heatmap.jpg" alt="Target Forward Support Heatmap" className="heatmap" />
                 </section>
@@ -103,6 +120,10 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Dribble Less</li>
+                        <li>Hold Up Ball</li>
+                    </ul>
                     <p className="mentality-description">Uses physical attributes to both create and score goals while offering minimal defensive contribution.</p>
                     <img src="tf_attack_heatmap.jpg" alt="Target Forward Attack Heatmap" className="heatmap" />
                 </section>
@@ -124,6 +145,10 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take Fewer Risks</li>
+                        <li>Dribble Less</li>
+                    </ul>
                     <p className="mentality-description">Focuses exclusively on getting into goalscoring positions with no defensive responsibilities or link-up play.</p>
                     <img src="poacher_attack_heatmap.jpg" alt="Poacher Attack Heatmap" className="heatmap" />
                 </section>
@@ -145,6 +170,12 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Dribble More</li>
+                        <li>Roam From Positions</li>
+                        <li>Move Into Channels</li>
+                    </ul>
                     <p className="mentality-description">Drops deep to link play while still posing a goal threat, contributing to all phases of attacking play.</p>
                     <img src="cf_support_heatmap.jpg" alt="Complete Forward Support Heatmap" className="heatmap" />
                 </section>
@@ -162,6 +193,12 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Dribble More</li>
+                        <li>Roam From Positions</li>
+                        <li>Move Into Channels</li>
+                    </ul>
                     <p className="mentality-description">More aggressive in pursuing goals while still contributing to build-up play when needed.</p>
                     <img src="cf_attack_heatmap.jpg" alt="Complete Forward Attack Heatmap" className="heatmap" />
                 </section>
@@ -183,6 +220,14 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take Fewer Risks</li>
+                        <li>Hold Up Ball</li>
+                        <li>Shoot Less Often</li>
+                        <li>Hold Position</li>
+                        <li>Close Down More</li>
+                        <li>Tackle Harder</li>
+                    </ul>
                     <p className="mentality-description">Focuses primarily on pressing defenders and winning the ball high up the pitch while offering a limited goal threat.</p>
                     <img src="pf_defend_heatmap.jpg" alt="Pressing Forward Defend Heatmap" className="heatmap" />
                 </section>
@@ -200,6 +245,11 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Hold Up Ball</li>
+                        <li>Close Down More</li>
+                        <li>Tackle Harder</li>
+                    </ul>
                     <p className="mentality-description">Balances pressing duties with attacking contributions, working hard to win possession and create chances.</p>
                     <img src="pf_support_heatmap.jpg" alt="Pressing Forward Support Heatmap" className="heatmap" />
                 </section>
@@ -217,6 +267,11 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Move Into Channels</li>
+                        <li>Close Down More</li>
+                        <li>Tackle Harder</li>
+                    </ul>
                     <p className="mentality-description">More aggressive in pursuing goals while still maintaining high pressing intensity and defensive work rate.</p>
                     <img src="pf_attack_heatmap.jpg" alt="Pressing Forward Attack Heatmap" className="heatmap" />
                 </section>
@@ -238,6 +293,13 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Dribble More</li>
+                        <li>Roam From Position</li>
+                        <li>Move Into Channels</li>
+                        <li>Ease Off Tackles</li>
+                    </ul>
                     <p className="mentality-description">Ignores defensive responsibilities completely, focusing solely on finding space and creating chances through individual brilliance.</p>
                     <img src="treq_attack_heatmap.jpg" alt="Trequartista Attack Heatmap" className="heatmap" />
                 </section>
@@ -259,6 +321,10 @@ function Striker() {
                             </div>
                         </div>
                     </div>
+                    <ul className='mentality-instructions'>
+                        <li>Take More Risks</li>
+                        <li>Dribble More</li>
+                    </ul>
                     <p className="mentality-description">Drops deep to receive the ball and create chances, pulling defenders out of position to create space for teammates.</p>
                     <img src="f9_support_heatmap.jpg" alt="False Nine Support Heatmap" className="heatmap" />
                 </section>
