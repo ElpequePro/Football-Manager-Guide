@@ -7,6 +7,10 @@ h1 {
   letter-spacing: 1px;
 }
 
+div.description {
+  margin-bottom: 40px;
+}
+
 h2 {
   color: var(--accent);
   border-bottom: 2px solid var(--secondary);
@@ -15,7 +19,8 @@ h2 {
   font-size: 1.8rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   scroll-margin-top: 52px;
 }
 

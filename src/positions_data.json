@@ -1,0 +1,2424 @@
+[
+  {
+    "position": "Defender",
+    "description": "Defenders are responsible for stopping the opposition's attacks and protecting their goal. They play a crucial role in maintaining the team's defensive structure and initiating attacks from the back.",
+    "roles": [
+      {
+        "role": "Central Defender",
+        "description": "A traditional central defender focused on marking, tackling, and clearing danger. Typically strong in the air and excellent at positioning.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 5,
+            "offensive": 1,
+            "instructions": [
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "Focuses purely on defensive duties, marking tightly and clearing danger. Rarely ventures forward and maintains disciplined positioning.",
+            "heatmap": "cd_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Stopper",
+            "defensive": 4.5,
+            "offensive": 2,
+            "instructions": [
+              "Dribble Less",
+              "Shoot Less Often"
+            ],
+            "description": "Aggressively steps out of defense to close down opponents and win the ball higher up the pitch. Takes more risks in defensive positioning.",
+            "heatmap": "cd_stopper_heatmap.jpg"
+          },
+          {
+            "mentality": "Cover",
+            "defensive": 4,
+            "offensive": 1.5,
+            "instructions": [
+              "Dribble Less",
+              "Shoot Less Often"
+            ],
+            "description": "Provides cover for more aggressive defensive partners, sweeping up behind the defensive line and using anticipation to intercept passes.",
+            "heatmap": "cd_cover_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Winger",
+    "description": "Wingers are wide attacking players who use pace and skill to beat defenders and deliver crosses or cut inside to create scoring opportunities.",
+    "roles": [
+      {
+        "role": "Winger",
+        "description": "A traditional wide attacker who looks to beat defenders with pace and skill before delivering crosses into the box.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Cross More Often",
+              "Dribble More",
+              "Stay Wider"
+            ],
+            "description": "Stays wide to stretch defenses and deliver crosses while tracking back to help defensively when needed.",
+            "heatmap": "winger_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Cross More Often",
+              "Cross From Byline",
+              "Dribble More",
+              "Get Further Forward",
+              "Stay Wider"
+            ],
+            "description": "Highly aggressive, constantly taking on defenders and delivering dangerous crosses. Defensive duties are minimal.",
+            "heatmap": "winger_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Defensive Winger",
+        "description": "A hard-working wide player who combines aggressive pressing with attacking contributions.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4.5,
+            "offensive": 2.5,
+            "instructions": [
+              "Take Fewer Risks",
+              "Cross From Deep",
+              "Hold Position",
+              "Close Down More",
+              "Tackle Harder"
+            ],
+            "description": "Focuses on pressing opponents high up the pitch and tracking back defensively while still providing width in attack.",
+            "heatmap": "dw_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 4,
+            "offensive": 3.5,
+            "instructions": [
+              "Cross More Often",
+              "Dribble More",
+              "Stay Wider",
+              "Close Down More",
+              "Tackle Harder"
+            ],
+            "description": "Aggressively presses opponents while contributing more to attacks through crosses and supporting runs.",
+            "heatmap": "dw_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Wide Playmaker",
+        "description": "A creative wide player who drifts inside to find space and dictate play from the flanks.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Cross Less Often",
+              "Cut Inside With Ball",
+              "Shoot Less Often",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Drops deep to receive the ball and create chances from wide areas while maintaining some defensive responsibility.",
+            "heatmap": "wp_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Cross Less Often",
+              "Dribble More",
+              "Cut Inside With Ball",
+              "Shoot Less Often",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "More aggressive in positioning, operating as the team's primary creative outlet from wide areas.",
+            "heatmap": "wp_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Inverted Winger",
+        "description": "A wide attacker who cuts inside onto their stronger foot, creating goal-scoring opportunities and overloading central areas.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Dribble More",
+              "Cut Inside With Ball"
+            ],
+            "description": "Cuts inside to link play and create chances while maintaining some defensive responsibility.",
+            "heatmap": "iw_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Dribble More",
+              "Cut Inside With Ball",
+              "Get Further Forward"
+            ],
+            "description": "Aggressively cuts inside to shoot or create chances, operating as a secondary striker at times.",
+            "heatmap": "iw_attack_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Attacking Midfielder",
+    "description": "Attacking midfielders operate between the lines, linking midfield and attack. They specialize in creating chances through vision and technique, with some roles focusing more on goalscoring. Their movement and creativity are crucial for breaking down organized defenses.",
+    "roles": [
+      {
+        "role": "Attacking Midfielder",
+        "description": "The standard advanced midfield role that connects midfield and attack through intelligent movement and passing.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Drops deeper to link play between midfield and attack, creating chances through vision and technique while maintaining some defensive responsibility.",
+            "heatmap": "am_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 4.5,
+            "instructions": [
+              "Get Further Forward"
+            ],
+            "description": "More aggressive in positioning, operating closer to the opposition box to create and score goals while offering minimal defensive contribution.",
+            "heatmap": "am_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Advanced Playmaker",
+        "description": "The team's primary creative hub in advanced positions, specializing in unlocking defenses with incisive passing and vision.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Shoot Less Often"
+            ],
+            "description": "Drops between lines to receive the ball and dictate play, creating chances with defense-splitting passes while offering minimal defensive work.",
+            "heatmap": "ap_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 1.5,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Shoot Less Often"
+            ],
+            "description": "Operates higher up the pitch as the team's chief creator, taking risks with passes and movement to break down defenses.",
+            "heatmap": "ap_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Trequartista",
+        "description": "A creative free spirit given complete freedom to roam and find space between midfield and attack.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defensive": 1,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Roam From Position",
+              "Move Into Channels",
+              "Ease Off Tackles"
+            ],
+            "description": "Ignores defensive responsibilities completely, focusing solely on finding space and creating chances through individual brilliance.",
+            "heatmap": "treq_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Enganche",
+        "description": "A traditional static playmaker who operates as the team's focal point in advanced positions, linking play with precise passing.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2,
+            "offensive": 4,
+            "instructions": [
+              "Take More Risks",
+              "Dribble Less",
+              "Hold Position"
+            ],
+            "description": "Stays centrally positioned to receive the ball and distribute to teammates, offering minimal movement or defensive work.",
+            "heatmap": "eng_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Shadow Striker",
+        "description": "An aggressive attacking midfielder who makes runs from deep to support the main striker and score goals.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defensive": 1.5,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Get Further Forward",
+              "Move Into Channels"
+            ],
+            "description": "Constantly looks to break beyond the striker into goalscoring positions, offering almost no defensive contribution.",
+            "heatmap": "ss_attack_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Striker",
+    "description": "Strikers are the primary goal-scoring threat, leading the attack with a variety of roles that emphasize finishing, movement, and link-up play.",
+    "roles": [
+      {
+        "role": "Advanced Forward",
+        "description": "A striker who plays on the shoulder of the last defender, looking to get in behind and score goals.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defensive": 1,
+            "offensive": 5,
+            "instructions": [
+              "Get Further Forward",
+              "Move Into Channels",
+              "Take More Risks"
+            ],
+            "description": "Constantly looks to break beyond the defense, making runs behind defenders and focusing on scoring goals.",
+            "heatmap": "af_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Complete Forward",
+        "description": "A versatile striker who can score, create, and hold up the ball, contributing in all phases of attack.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2,
+            "offensive": 4.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Balances goal-scoring with creative play, linking with teammates and contributing to build-up.",
+            "heatmap": "cf_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 1.5,
+            "offensive": 5,
+            "instructions": [
+              "Get Further Forward",
+              "Take More Risks"
+            ],
+            "description": "More aggressive in positioning, looking to score and create chances while taking risks.",
+            "heatmap": "cf_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Poacher",
+        "description": "A striker who focuses on scoring goals by being in the right place at the right time, often inside the penalty area.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defensive": 1,
+            "offensive": 5,
+            "instructions": [
+              "Get Further Forward",
+              "Move Into Channels",
+              "Take More Risks"
+            ],
+            "description": "Focuses on goal-scoring, making quick runs into the box and finishing chances.",
+            "heatmap": "po_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Target Man",
+        "description": "A physical striker who holds up the ball and brings others into play, often used as a focal point for attacks.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2,
+            "offensive": 4,
+            "instructions": [
+              "Hold Position",
+              "Take More Risks"
+            ],
+            "description": "Uses physicality to hold up play and create chances for teammates.",
+            "heatmap": "tm_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 1.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Hold Position",
+              "Take More Risks"
+            ],
+            "description": "More aggressive in attacking, looking to score and create chances while holding up the ball.",
+            "heatmap": "tm_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Deep Lying Forward",
+        "description": "A striker who drops deeper to link play and create chances for others.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2,
+            "offensive": 4,
+            "instructions": [
+              "Hold Position",
+              "Take More Risks"
+            ],
+            "description": "Links play between midfield and attack, creating chances and supporting teammates.",
+            "heatmap": "dlf_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 1.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Hold Position",
+              "Take More Risks"
+            ],
+            "description": "More aggressive in positioning, looking to score and create chances while linking play.",
+            "heatmap": "dlf_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Pressing Forward",
+        "description": "A striker who leads the press, putting pressure on opposition defenders to win the ball high up the pitch.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 3.5,
+            "instructions": [
+              "Close Down More",
+              "Tackle Harder"
+            ],
+            "description": "Works hard to win the ball back and disrupt opposition play.",
+            "heatmap": "pf_support_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Defensive Midfielder",
+    "description": "Defensive midfielders provide the crucial link between defense and attack, specializing in breaking up opposition play, shielding the backline, and initiating attacks. Their positioning and decision-making are vital for team structure.",
+    "roles": [
+      {
+        "role": "Defensive Midfielder",
+        "description": "The standard holding midfielder who focuses on defensive stability while providing simple distribution to more creative players.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4.5,
+            "offensive": 2,
+            "instructions": [
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "Stays deep to protect the defense, intercepting passes and making simple distributions. Rarely ventures forward, maintaining disciplined positioning.",
+            "heatmap": "dm_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 3.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Balances defensive duties with more adventurous positioning, occasionally joining attacks while maintaining defensive awareness.",
+            "heatmap": "dm_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Deep Lying Playmaker",
+        "description": "A creative pivot who operates in front of the defense, dictating play with intelligent passing while providing defensive cover.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "Stays deep to receive the ball from defenders and initiate attacks with precise passing. Maintains defensive positioning while orchestrating play.",
+            "heatmap": "dlp_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "Take More Risks",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "More adventurous in positioning, stepping into midfield to influence play while still providing defensive cover when needed.",
+            "heatmap": "dlp_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Ball Winning Midfielder",
+        "description": "An aggressive midfielder who specializes in winning back possession through tackles and interceptions, then distributing simply to teammates.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 5,
+            "offensive": 2,
+            "instructions": [
+              "Take Fewer Risks",
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position",
+              "Tackle Harder"
+            ],
+            "description": "Focuses purely on defensive duties, aggressively closing down opponents and winning the ball in dangerous areas before making simple passes.",
+            "heatmap": "bwm_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Tackle Harder"
+            ],
+            "description": "Presses higher up the pitch to win possession while still maintaining defensive responsibilities. More involved in transitional play.",
+            "heatmap": "bwm_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Anchor",
+        "description": "A purely defensive midfielder who sits deep to protect the backline, intercepting passes and clearing danger without venturing forward.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 5,
+            "offensive": 1,
+            "instructions": [
+              "Take Fewer Risks",
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "Stays permanently positioned in front of the center-backs, breaking up attacks and distributing simply. The ultimate defensive shield.",
+            "heatmap": "anchor_defend_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Half Back",
+        "description": "A unique defensive midfielder who drops between center-backs in possession to create a back three, providing extra defensive cover.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4.5,
+            "offensive": 1.5,
+            "instructions": [
+              "Dribble Less",
+              "Hold Position"
+            ],
+            "description": "Drops deep to form a back three in possession, providing defensive stability and an extra passing option for building from the back.",
+            "heatmap": "hb_defend_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Regista",
+        "description": "A deep-lying playmaker with complete creative freedom, orchestrating play from deep positions while still providing defensive cover.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Roam From Position"
+            ],
+            "description": "The team's primary creative hub from deep positions, given license to dictate tempo and try ambitious passes while maintaining positional discipline.",
+            "heatmap": "regista_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Roaming Playmaker",
+        "description": "A dynamic midfielder who moves across the pitch to find space and influence play, combining defensive work with creative passing.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Roam From Position"
+            ],
+            "description": "Constantly moves to find space and receive the ball, linking defense and attack with intelligent movement and passing while still contributing defensively.",
+            "heatmap": "rp_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Segundo Volante",
+        "description": "A dynamic box-to-box midfielder who operates behind a traditional playmaker, making late runs into the box while providing defensive cover.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 4,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Makes supporting runs from deep, arriving late in the box while maintaining defensive responsibilities. The balanced option for this role.",
+            "heatmap": "sv_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2.5,
+            "offensive": 5,
+            "instructions": [
+              "Get Further Forward"
+            ],
+            "description": "Highly aggressive with forward runs, frequently arriving in scoring positions while still expected to track back when needed.",
+            "heatmap": "sv_attack_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Midfielder",
+    "description": "Midfielders are the engine room of any team, connecting defense with attack. Their diverse roles range from destructive ball-winners to creative playmakers, with many hybrid roles in between that dictate a team's playing style.",
+    "roles": [
+      {
+        "role": "Central Midfielder",
+        "description": "The standard midfield role that provides balance between defense and attack. Adaptable to various tactical approaches through different mentalities.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 2,
+            "instructions": [
+              "Hold Position"
+            ],
+            "description": "Focuses on defensive positioning and simple distribution. Stays deeper to protect the backline while recycling possession efficiently.",
+            "heatmap": "cm_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 3.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Balances defensive duties with attacking contributions. Makes supporting runs and participates in both phases of play.",
+            "heatmap": "cm_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2.5,
+            "offensive": 4,
+            "instructions": [
+              "Get Further Forward"
+            ],
+            "description": "More adventurous in positioning, making forward runs to support attacks while still maintaining some defensive responsibility.",
+            "heatmap": "cm_attack_heatmap.jpg"
+          },
+          {
+            "mentality": "Automatic",
+            "defensive": 3,
+            "offensive": 3.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing the game.",
+            "heatmap": "cm_auto_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Deep Lying Playmaker",
+        "description": "A creative pivot who operates in deeper midfield positions, dictating play with intelligent passing while providing defensive cover.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "Stays deep to receive the ball from defenders and initiate attacks with precise passing. Maintains defensive positioning while orchestrating play.",
+            "heatmap": "dlp_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "Take More Risks",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "More adventurous in positioning, stepping into midfield to influence play while still providing defensive cover when needed.",
+            "heatmap": "dlp_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Box To Box Midfielder",
+        "description": "A dynamic, all-action midfielder who contributes to both defensive and attacking phases with endless energy and stamina.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 4,
+            "instructions": [
+              "Roam From Position"
+            ],
+            "description": "Covers every blade of grass, supporting attacks and tracking back defensively. The ultimate all-round midfield role.",
+            "heatmap": "btb_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Advanced Playmaker",
+        "description": "The team's primary creative outlet in advanced midfield positions, specializing in unlocking defenses with incisive passing.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Shoot Less Often"
+            ],
+            "description": "Drops deeper to receive the ball and dictate play between the lines, creating chances with vision and technique.",
+            "heatmap": "ap_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Shoot Less Often"
+            ],
+            "description": "More aggressive in positioning, operating closer to the opposition box to create goal-scoring opportunities.",
+            "heatmap": "ap_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Ball Winning Midfielder",
+        "description": "An aggressive midfielder who specializes in winning back possession through tackles and interceptions.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 5,
+            "offensive": 2,
+            "instructions": [
+              "Take Fewer Risks",
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position",
+              "Tackle Harder"
+            ],
+            "description": "Focuses purely on defensive duties, aggressively closing down opponents in midfield areas before making simple passes.",
+            "heatmap": "bwm_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Tackle Harder"
+            ],
+            "description": "Presses higher up the pitch to win possession while still maintaining defensive responsibilities. More involved in transitional play.",
+            "heatmap": "bwm_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Roaming Playmaker",
+        "description": "A dynamic creative midfielder given license to move across the pitch to find space and influence play in all areas.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Roam From Position"
+            ],
+            "description": "Constantly moves to find space and receive the ball, linking play between defense and attack with intelligent movement and passing while still contributing defensively.",
+            "heatmap": "rp_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Mezzala",
+        "description": "A wide central midfielder who operates in the half-spaces, combining creative play with goal threat through late runs.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "Get Further Forward",
+              "Roam From Position",
+              "Move Into Channels"
+            ],
+            "description": "Drifts wide to create overloads while making supporting runs into the box. Provides creativity and goal threat.",
+            "heatmap": "mez_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Get Further Forward",
+              "Roam From Position",
+              "Move Into Channels"
+            ],
+            "description": "More aggressive with forward runs, frequently arriving in scoring positions while drifting wide to create chances.",
+            "heatmap": "mez_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Carrilero",
+        "description": "A specialized central midfielder who covers the half-spaces defensively while providing lateral support in possession.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 3,
+            "instructions": [
+              "Stay Wider"
+            ],
+            "description": "Shuttles across midfield to provide defensive cover in wide areas while supporting attacks through intelligent positioning.",
+            "heatmap": "car_support_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Attacking Midfielder",
+    "description": "Attacking midfielders operate between the lines, linking midfield and attack. They specialize in creating chances through vision and technique, with some roles focusing more on goalscoring. Their movement and creativity are crucial for breaking down organized defenses.",
+    "roles": [
+      {
+        "role": "Attacking Midfielder",
+        "description": "The standard advanced midfield role that connects midfield and attack through intelligent movement and passing.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Drops deeper to link play between midfield and attack, creating chances through vision and technique while maintaining some defensive responsibility.",
+            "heatmap": "am_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 4.5,
+            "instructions": [
+              "Get Further Forward"
+            ],
+            "description": "More aggressive in positioning, operating closer to the opposition box to create and score goals while offering minimal defensive contribution.",
+            "heatmap": "am_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Advanced Playmaker",
+        "description": "The team's primary creative hub in advanced positions, specializing in unlocking defenses with incisive passing and vision.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Shoot Less Often"
+            ],
+            "description": "Drops between lines to receive the ball and dictate play, creating chances with defense-splitting passes while offering minimal defensive work.",
+            "heatmap": "ap_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 1.5,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Shoot Less Often"
+            ],
+            "description": "Operates higher up the pitch as the team's chief creator, taking risks with passes and movement to break down defenses.",
+            "heatmap": "ap_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Trequartista",
+        "description": "A creative free spirit given complete freedom to roam and find space between midfield and attack.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defensive": 1,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Roam From Position",
+              "Move Into Channels",
+              "Ease Off Tackles"
+            ],
+            "description": "Ignores defensive responsibilities completely, focusing solely on finding space and creating chances through individual brilliance.",
+            "heatmap": "treq_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Enganche",
+        "description": "A traditional static playmaker who operates as the team's focal point in advanced positions, linking play with precise passing.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2,
+            "offensive": 4,
+            "instructions": [
+              "Take More Risks",
+              "Dribble Less",
+              "Hold Position"
+            ],
+            "description": "Stays centrally positioned to receive the ball and distribute to teammates, offering minimal movement or defensive work.",
+            "heatmap": "eng_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Shadow Striker",
+        "description": "An aggressive attacking midfielder who makes runs from deep to support the main striker and score goals.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defensive": 1.5,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Get Further Forward",
+              "Move Into Channels"
+            ],
+            "description": "Constantly looks to break beyond the striker into goalscoring positions, offering almost no defensive contribution.",
+            "heatmap": "ss_attack_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Wide Midfielder",
+    "description": "Wide midfielders operate along the flanks, providing width and stretching opposition defenses. Their roles range from traditional wingers to more defensively-oriented wide players, offering diverse tactical options for different systems.",
+    "roles": [
+      {
+        "role": "Wide Midfielder",
+        "description": "The standard wide role that balances defensive responsibilities with attacking contributions. More disciplined than pure wingers but still dangerous going forward.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4.5,
+            "offensive": 2,
+            "instructions": [
+              "Take Fewer Risks",
+              "Cross From Deep",
+              "Dribble Less",
+              "Hold Position"
+            ],
+            "description": "Focuses primarily on defensive duties, staying deep to protect the flank and mark opposition wide players. Rarely ventures forward.",
+            "heatmap": "wm_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 3.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Balances defensive work with attacking contributions. Makes supporting runs and delivers crosses while tracking back.",
+            "heatmap": "wm_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "Get Further Forward"
+            ],
+            "description": "More aggressive in positioning, frequently pushing forward to support attacks while maintaining defensive awareness.",
+            "heatmap": "wm_attack_heatmap.jpg"
+          },
+          {
+            "mentality": "Automatic",
+            "defensive": 3.5,
+            "offensive": 3.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing the game.",
+            "heatmap": "wm_auto_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Winger",
+        "description": "A traditional wide attacker who looks to beat defenders with pace and skill before delivering crosses into the box.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Cross More Often",
+              "Dribble More",
+              "Stay Wider"
+            ],
+            "description": "Stays wide to stretch defenses and deliver crosses while tracking back to help defensively when needed.",
+            "heatmap": "winger_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Cross More Often",
+              "Cross From Byline",
+              "Dribble More",
+              "Get Further Forward",
+              "Stay Wider"
+            ],
+            "description": "Highly aggressive, constantly taking on defenders and delivering dangerous crosses. Defensive duties are minimal.",
+            "heatmap": "winger_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Defensive Winger",
+        "description": "A hard-working wide player who combines aggressive pressing with attacking contributions.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4.5,
+            "offensive": 2.5,
+            "instructions": [
+              "Take Fewer Risks",
+              "Cross From Deep",
+              "Hold Position",
+              "Close Down More",
+              "Tackle Harder"
+            ],
+            "description": "Focuses on pressing opponents high up the pitch and tracking back defensively while still providing width in attack.",
+            "heatmap": "dw_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 4,
+            "offensive": 3.5,
+            "instructions": [
+              "Cross More Often",
+              "Dribble More",
+              "Stay Wider",
+              "Close Down More",
+              "Tackle Harder"
+            ],
+            "description": "Aggressively presses opponents while contributing more to attacks through crosses and supporting runs.",
+            "heatmap": "dw_support_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Wide Playmaker",
+        "description": "A creative wide player who drifts inside to find space and dictate play from the flanks.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Cross Less Often",
+              "Cut Inside With Ball",
+              "Shoot Less Often",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Drops deep to receive the ball and create chances from wide areas while maintaining some defensive responsibility.",
+            "heatmap": "wp_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Take More Risks",
+              "Cross Less Often",
+              "Dribble More",
+              "Cut Inside With Ball",
+              "Shoot Less Often",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "More aggressive in positioning, operating as the team's primary creative outlet from wide areas.",
+            "heatmap": "wp_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Inverted Winger",
+        "description": "A wide attacker who cuts inside onto their stronger foot, creating goal-scoring opportunities and overloading central areas.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 2.5,
+            "offensive": 4.5,
+            "instructions": [
+              "Dribble More",
+              "Cut Inside With Ball"
+            ],
+            "description": "Cuts inside to link play and create chances while maintaining some defensive responsibility.",
+            "heatmap": "iw_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": null
+          }
+        ]
+      },
+      {
+        "position": "Defensive Midfielder",
+        "description": "Defensive midfielders provide the crucial link between defense and attack, specializing in breaking up opposition play, shielding the backline, and initiating attacks. Their positioning and decision-making are vital for team structure.",
+        "roles": [
+          {
+            "role": "Defensive Midfielder",
+            "description": "The standard holding midfielder who focuses on defensive stability while providing simple distribution to more creative players.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 4.5,
+                "offensive": 2,
+                "instructions": [
+                  "Dribble Less",
+                  "Shoot Less Often",
+                  "Hold Position"
+                ],
+                "description": "Stays deep to protect the defense, intercepting passes and making simple distributions. Rarely ventures forward, maintaining disciplined positioning.",
+                "heatmap": "dm_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 3.5,
+                "offensive": 3.5,
+                "instructions": [
+                  "No Specific Instructions"
+                ],
+                "description": "Balances defensive duties with more adventurous positioning, occasionally joining attacks while maintaining defensive awareness.",
+                "heatmap": "dm_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Deep Lying Playmaker",
+            "description": "A creative pivot who operates in front of the defense, dictating play with intelligent passing while providing defensive cover.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 4,
+                "offensive": 3,
+                "instructions": [
+                  "Dribble Less",
+                  "Shoot Less Often",
+                  "Hold Position"
+                ],
+                "description": "Stays deep to receive the ball from defenders and initiate attacks with precise passing. Maintains defensive positioning while orchestrating play.",
+                "heatmap": "dlp_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 3,
+                "offensive": 4,
+                "instructions": [
+                  "Take More Risks",
+                  "Shoot Less Often",
+                  "Hold Position"
+                ],
+                "description": "More adventurous in positioning, stepping into midfield to influence play while still providing defensive cover when needed.",
+                "heatmap": "dlp_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Ball Winning Midfielder",
+            "description": "An aggressive midfielder who specializes in winning back possession through tackles and interceptions, then distributing simply to teammates.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 5,
+                "offensive": 2,
+                "instructions": [
+                  "Take Fewer Risks",
+                  "Dribble Less",
+                  "Shoot Less Often",
+                  "Hold Position",
+                  "Tackle Harder"
+                ],
+                "description": "Focuses purely on defensive duties, aggressively closing down opponents and winning the ball in dangerous areas before making simple passes.",
+                "heatmap": "bwm_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 4,
+                "offensive": 3,
+                "instructions": [
+                  "Tackle Harder"
+                ],
+                "description": "Presses higher up the pitch to win possession while still maintaining defensive responsibilities. More involved in transitional play.",
+                "heatmap": "bwm_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Anchor",
+            "description": "A purely defensive midfielder who sits deep to protect the backline, intercepting passes and clearing danger without venturing forward.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 5,
+                "offensive": 1,
+                "instructions": [
+                  "Take Fewer Risks",
+                  "Dribble Less",
+                  "Shoot Less Often",
+                  "Hold Position"
+                ],
+                "description": "Stays permanently positioned in front of the center-backs, breaking up attacks and distributing simply. The ultimate defensive shield.",
+                "heatmap": "anchor_defend_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Half Back",
+            "description": "A unique defensive midfielder who drops between center-backs in possession to create a back three, providing extra defensive cover.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 4.5,
+                "offensive": 1.5,
+                "instructions": [
+                  "Dribble Less",
+                  "Hold Position"
+                ],
+                "description": "Drops deep to form a back three in possession, providing defensive stability and an extra passing option for building from the back.",
+                "heatmap": "hb_defend_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Regista",
+            "description": "A deep-lying playmaker with complete creative freedom, orchestrating play from deep positions while still providing defensive cover.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 3,
+                "offensive": 4.5,
+                "instructions": [
+                  "Take More Risks",
+                  "Roam From Position"
+                ],
+                "description": "The team's primary creative hub from deep positions, given license to dictate tempo and try ambitious passes while maintaining positional discipline.",
+                "heatmap": "regista_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Roaming Playmaker",
+            "description": "A dynamic midfielder who moves across the pitch to find space and influence play, combining defensive work with creative passing.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 3,
+                "offensive": 4.5,
+                "instructions": [
+                  "Take More Risks",
+                  "Roam From Position"
+                ],
+                "description": "Constantly moves to find space and receive the ball, linking defense and attack with intelligent movement and passing while still contributing defensively.",
+                "heatmap": "rp_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Segundo Volante",
+            "description": "A dynamic box-to-box midfielder who operates behind a traditional playmaker, making late runs into the box while providing defensive cover.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 3.5,
+                "offensive": 4,
+                "instructions": [
+                  "No Specific Instructions"
+                ],
+                "description": "Makes supporting runs from deep, arriving late in the box while maintaining defensive responsibilities. The balanced option for this role.",
+                "heatmap": "sv_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2.5,
+                "offensive": 5,
+                "instructions": [
+                  "Get Further Forward"
+                ],
+                "description": "Highly aggressive with forward runs, frequently arriving in scoring positions while still expected to track back when needed.",
+                "heatmap": "sv_attack_heatmap.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "position": "Midfielder",
+        "description": "Midfielders are the engine room of any team, connecting defense with attack. Their diverse roles range from destructive ball-winners to creative playmakers, with many hybrid roles in between that dictate a team's playing style.",
+        "roles": [
+          {
+            "role": "Central Midfielder",
+            "description": "The standard midfield role that provides balance between defense and attack. Adaptable to various tactical approaches through different mentalities.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 4,
+                "offensive": 2,
+                "instructions": [
+                  "Hold Position"
+                ],
+                "description": "Focuses on defensive positioning and simple distribution. Stays deeper to protect the backline while recycling possession efficiently.",
+                "heatmap": "cm_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 3,
+                "offensive": 3.5,
+                "instructions": [
+                  "No Specific Instructions"
+                ],
+                "description": "Balances defensive duties with attacking contributions. Makes supporting runs and participates in both phases of play.",
+                "heatmap": "cm_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2.5,
+                "offensive": 4,
+                "instructions": [
+                  "Get Further Forward"
+                ],
+                "description": "More adventurous in positioning, making forward runs to support attacks while still maintaining some defensive responsibility.",
+                "heatmap": "cm_attack_heatmap.jpg"
+              },
+              {
+                "mentality": "Automatic",
+                "defensive": 3,
+                "offensive": 3.5,
+                "instructions": [
+                  "No Specific Instructions"
+                ],
+                "description": "Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing the game.",
+                "heatmap": "cm_auto_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Deep Lying Playmaker",
+            "description": "A creative pivot who operates in deeper midfield positions, dictating play with intelligent passing while providing defensive cover.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 4,
+                "offensive": 3,
+                "instructions": [
+                  "Dribble Less",
+                  "Shoot Less Often",
+                  "Hold Position"
+                ],
+                "description": "Stays deep to receive the ball from defenders and initiate attacks with precise passing. Maintains defensive positioning while orchestrating play.",
+                "heatmap": "dlp_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 3,
+                "offensive": 4,
+                "instructions": [
+                  "Take More Risks",
+                  "Shoot Less Often",
+                  "Hold Position"
+                ],
+                "description": "More adventurous in positioning, stepping into midfield to influence play while still providing defensive cover when needed.",
+                "heatmap": "dlp_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Box To Box Midfielder",
+            "description": "A dynamic, all-action midfielder who contributes to both defensive and attacking phases with endless energy and stamina.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 3.5,
+                "offensive": 4,
+                "instructions": [
+                  "Roam From Position"
+                ],
+                "description": "Covers every blade of grass, supporting attacks and tracking back defensively. The ultimate all-round midfield role.",
+                "heatmap": "btb_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Advanced Playmaker",
+            "description": "The team's primary creative outlet in advanced midfield positions, specializing in unlocking defenses with incisive passing.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 2.5,
+                "offensive": 4.5,
+                "instructions": [
+                  "Take More Risks",
+                  "Shoot Less Often"
+                ],
+                "description": "Drops deeper to receive the ball and dictate play between the lines, creating chances with vision and technique.",
+                "heatmap": "ap_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2,
+                "offensive": 5,
+                "instructions": [
+                  "Take More Risks",
+                  "Dribble More",
+                  "Shoot Less Often"
+                ],
+                "description": "More aggressive in positioning, operating closer to the opposition box to create goal-scoring opportunities.",
+                "heatmap": "ap_attack_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Ball Winning Midfielder",
+            "description": "An aggressive midfielder who specializes in winning back possession through tackles and interceptions.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 5,
+                "offensive": 2,
+                "instructions": [
+                  "Take Fewer Risks",
+                  "Dribble Less",
+                  "Shoot Less Often",
+                  "Hold Position",
+                  "Tackle Harder"
+                ],
+                "description": "Focuses purely on defensive duties, aggressively closing down opponents in midfield areas before making simple passes.",
+                "heatmap": "bwm_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 4,
+                "offensive": 3,
+                "instructions": [
+                  "Tackle Harder"
+                ],
+                "description": "Presses higher up the pitch to win possession while still maintaining defensive responsibilities. More involved in transitional play.",
+                "heatmap": "bwm_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Roaming Playmaker",
+            "description": "A dynamic creative midfielder given license to move across the pitch to find space and influence play in all areas.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 3,
+                "offensive": 4.5,
+                "instructions": [
+                  "Take More Risks",
+                  "Roam From Position"
+                ],
+                "description": "Constantly moves to find space and receive the ball, linking play between defense and attack with intelligent movement and passing while still contributing defensively.",
+                "heatmap": "rp_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Mezzala",
+            "description": "A wide central midfielder who operates in the half-spaces, combining creative play with goal threat through late runs.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 3,
+                "offensive": 4,
+                "instructions": [
+                  "Get Further Forward",
+                  "Roam From Position",
+                  "Move Into Channels"
+                ],
+                "description": "Drifts wide to create overloads while making supporting runs into the box. Provides creativity and goal threat.",
+                "heatmap": "mez_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2.5,
+                "offensive": 4.5,
+                "instructions": [
+                  "Take More Risks",
+                  "Get Further Forward",
+                  "Roam From Position",
+                  "Move Into Channels"
+                ],
+                "description": "More aggressive with forward runs, frequently arriving in scoring positions while drifting wide to create chances.",
+                "heatmap": "mez_attack_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Carrilero",
+            "description": "A specialized central midfielder who covers the half-spaces defensively while providing lateral support in possession.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 3.5,
+                "offensive": 3,
+                "instructions": [
+                  "Stay Wider"
+                ],
+                "description": "Shuttles across midfield to provide defensive cover in wide areas while supporting attacks through intelligent positioning.",
+                "heatmap": "car_support_heatmap.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "position": "Wide Midfielder",
+        "description": "Wide midfielders operate along the flanks, providing width and stretching opposition defenses. Their roles range from traditional wingers to more defensively-oriented wide players, offering diverse tactical options for different systems.",
+        "roles": [
+          {
+            "role": "Wide Midfielder",
+            "description": "The standard wide role that balances defensive responsibilities with attacking contributions. More disciplined than pure wingers but still dangerous going forward.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 4.5,
+                "offensive": 2,
+                "instructions": [
+                  "Take Fewer Risks",
+                  "Cross From Deep",
+                  "Dribble Less",
+                  "Hold Position"
+                ],
+                "description": "Focuses primarily on defensive duties, staying deep to protect the flank and mark opposition wide players. Rarely ventures forward.",
+                "heatmap": "wm_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 3.5,
+                "offensive": 3.5,
+                "instructions": [
+                  "No Specific Instructions"
+                ],
+                "description": "Balances defensive work with attacking contributions. Makes supporting runs and delivers crosses while tracking back.",
+                "heatmap": "wm_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 3,
+                "offensive": 4,
+                "instructions": [
+                  "Get Further Forward"
+                ],
+                "description": "More aggressive in positioning, frequently pushing forward to support attacks while maintaining defensive awareness.",
+                "heatmap": "wm_attack_heatmap.jpg"
+              },
+              {
+                "mentality": "Automatic",
+                "defensive": 3.5,
+                "offensive": 3.5,
+                "instructions": [
+                  "No Specific Instructions"
+                ],
+                "description": "Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing the game.",
+                "heatmap": "wm_auto_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Winger",
+            "description": "A traditional wide attacker who looks to beat defenders with pace and skill before delivering crosses into the box.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 2.5,
+                "offensive": 4.5,
+                "instructions": [
+                  "Cross More Often",
+                  "Dribble More",
+                  "Stay Wider"
+                ],
+                "description": "Stays wide to stretch defenses and deliver crosses while tracking back to help defensively when needed.",
+                "heatmap": "winger_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2,
+                "offensive": 5,
+                "instructions": [
+                  "Cross More Often",
+                  "Cross From Byline",
+                  "Dribble More",
+                  "Get Further Forward",
+                  "Stay Wider"
+                ],
+                "description": "Highly aggressive, constantly taking on defenders and delivering dangerous crosses. Defensive duties are secondary.",
+                "heatmap": "winger_attack_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Defensive Winger",
+            "description": "A hard-working wide player who combines aggressive pressing with attacking contributions.",
+            "mentalities": [
+              {
+                "mentality": "Defend",
+                "defensive": 4.5,
+                "offensive": 2.5,
+                "instructions": [
+                  "Take Fewer Risks",
+                  "Cross From Deep",
+                  "Hold Position",
+                  "Close Down More",
+                  "Tackle Harder"
+                ],
+                "description": "Focuses on pressing opponents high up the pitch and tracking back defensively while still providing width in attack.",
+                "heatmap": "dw_defend_heatmap.jpg"
+              },
+              {
+                "mentality": "Support",
+                "defensive": 4,
+                "offensive": 3.5,
+                "instructions": [
+                  "Cross More Often",
+                  "Dribble More",
+                  "Stay Wider",
+                  "Close Down More",
+                  "Tackle Harder"
+                ],
+                "description": "Aggressively presses opponents while contributing more to attacks through crosses and supporting runs.",
+                "heatmap": "dw_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Wide Playmaker",
+            "description": "A creative wide player who drifts inside to find space and dictate play from the flanks.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 2.5,
+                "offensive": 4.5,
+                "instructions": [
+                  "Take More Risks",
+                  "Cross Less Often",
+                  "Cut Inside With Ball",
+                  "Shoot Less Often",
+                  "Roam From Position",
+                  "Sit Narrower"
+                ],
+                "description": "Drops deep to receive the ball and create chances from wide areas while maintaining some defensive responsibility.",
+                "heatmap": "wp_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2,
+                "offensive": 5,
+                "instructions": [
+                  "Take More Risks",
+                  "Cross Less Often",
+                  "Dribble More",
+                  "Cut Inside With Ball",
+                  "Shoot Less Often",
+                  "Roam From Position",
+                  "Sit Narrower"
+                ],
+                "description": "More aggressive in positioning, operating as the team's primary creative outlet from wide areas.",
+                "heatmap": "wp_attack_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Inverted Winger",
+            "description": "A wide attacker who cuts inside onto their stronger foot, creating goal-scoring opportunities and overloading central areas.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 2.5,
+                "offensive": 4.5,
+                "instructions": [
+                  "Dribble More",
+                  "Cut Inside With Ball"
+                ],
+                "description": "Cuts inside to link play and create chances while maintaining some defensive responsibility.",
+                "heatmap": "iw_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2,
+                "offensive": 5,
+                "instructions": [
+                  "Dribble More",
+                  "Cut Inside With Ball",
+                  "Get Further Forward"
+                ],
+                "description": "Aggressively cuts inside to shoot or create chances, operating as a secondary striker at times.",
+                "heatmap": "iw_attack_heatmap.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "position": "Attacking Midfielder",
+        "description": "Attacking midfielders operate between the lines, linking midfield and attack. They specialize in creating chances through vision and technique, with some roles focusing more on goalscoring. Their movement and creativity are crucial for breaking down organized defenses.",
+        "roles": [
+          {
+            "role": "Attacking Midfielder",
+            "description": "The standard advanced midfield role that connects midfield and attack through intelligent movement and passing.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 2.5,
+                "offensive": 4,
+                "instructions": [
+                  "No Specific Instructions"
+                ],
+                "description": "Drops deeper to link play between midfield and attack, creating chances through vision and technique while maintaining some defensive responsibility.",
+                "heatmap": "am_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 2,
+                "offensive": 4.5,
+                "instructions": [
+                  "Get Further Forward"
+                ],
+                "description": "More aggressive in positioning, operating closer to the opposition box to create and score goals while offering minimal defensive contribution.",
+                "heatmap": "am_attack_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Advanced Playmaker",
+            "description": "The team's primary creative hub in advanced positions, specializing in unlocking defenses with incisive passing and vision.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 2,
+                "offensive": 4.5,
+                "instructions": [
+                  "Take More Risks",
+                  "Shoot Less Often"
+                ],
+                "description": "Drops between lines to receive the ball and dictate play, creating chances with defense-splitting passes while offering minimal defensive work.",
+                "heatmap": "ap_support_heatmap.jpg"
+              },
+              {
+                "mentality": "Attack",
+                "defensive": 1.5,
+                "offensive": 5,
+                "instructions": [
+                  "Take More Risks",
+                  "Dribble More",
+                  "Shoot Less Often"
+                ],
+                "description": "Operates higher up the pitch as the team's chief creator, taking risks with passes and movement to break down defenses.",
+                "heatmap": "ap_attack_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Trequartista",
+            "description": "A creative free spirit given complete freedom to roam and find space between midfield and attack.",
+            "mentalities": [
+              {
+                "mentality": "Attack",
+                "defensive": 1,
+                "offensive": 5,
+                "instructions": [
+                  "Take More Risks",
+                  "Dribble More",
+                  "Roam From Position",
+                  "Move Into Channels",
+                  "Ease Off Tackles"
+                ],
+                "description": "Ignores defensive responsibilities completely, focusing solely on finding space and creating chances through individual brilliance.",
+                "heatmap": "treq_attack_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Enganche",
+            "description": "A traditional static playmaker who operates as the team's focal point in advanced positions, linking play with precise passing.",
+            "mentalities": [
+              {
+                "mentality": "Support",
+                "defensive": 2,
+                "offensive": 4,
+                "instructions": [
+                  "Take More Risks",
+                  "Dribble Less",
+                  "Hold Position"
+                ],
+                "description": "Stays centrally positioned to receive the ball and distribute to teammates, offering minimal movement or defensive work.",
+                "heatmap": "eng_support_heatmap.jpg"
+              }
+            ]
+          },
+          {
+            "role": "Shadow Striker",
+            "description": "An aggressive attacking midfielder who makes runs from deep to support the main striker and score goals.",
+            "mentalities": [
+              {
+                "mentality": "Attack",
+                "defensive": 1.5,
+                "offensive": 5,
+                "instructions": [
+                  "Take More Risks",
+                  "Dribble More",
+                  "Get Further Forward",
+                  "Move Into Channels"
+                ],
+                "description": "Constantly looks to break beyond the striker into goalscoring positions, offering almost no defensive contribution.",
+                "heatmap": "ss_attack_heatmap.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Libero",
+    "description": "A creative defender who operates behind the defensive line, starting attacks with intelligent passing while providing defensive cover.",
+    "mentalities": [
+      {
+        "mentality": "Defend",
+        "defensive": 4.5,
+        "offensive": 2,
+        "instructions": [
+          "Hold Position"
+        ],
+        "description": "Focuses on defensive positioning and initiating attacks from deep. Provides a safety net behind the defense while distributing the ball intelligently.",
+        "heatmap": "liber_defend_heatmap.jpg"
+      },
+      {
+        "mentality": "Support",
+        "defensive": 3.5,
+        "offensive": 3.5,
+        "instructions": [
+          "No Specific Instructions"
+        ],
+        "description": "More adventurous in possession, stepping into midfield to support attacks while maintaining defensive responsibilities.",
+        "heatmap": "liber_support_heatmap.jpg"
+      }
+    ]
+  },
+  {
+    "role": "Ball Playing Defender",
+    "description": "A central defender with excellent technical skills who looks to start attacks with precise passing while maintaining solid defensive fundamentals.",
+    "mentalities": [
+      {
+        "mentality": "Defend",
+        "defensive": 4,
+        "offensive": 2.5,
+        "instructions": [
+          "Take More Risks",
+          "Hold Position"
+        ],
+        "description": "Maintains defensive discipline while looking to distribute the ball intelligently from the back. Takes fewer risks in possession than more attacking mentalities.",
+        "heatmap": "bpd_defend_heatmap.jpg"
+      },
+      {
+        "mentality": "Stopper",
+        "defensive": 4,
+        "offensive": 3,
+        "instructions": [
+          "Take More Risks"
+        ],
+        "description": "Steps out of defense aggressively to win the ball and start attacks quickly. Takes more risks both defensively and in possession.",
+        "heatmap": "bpd_stopper_heatmap.jpg"
+      },
+      {
+        "mentality": "Cover",
+        "defensive": 4.5,
+        "offensive": 2,
+        "instructions": [
+          "Take More Risks"
+        ],
+        "description": "Provides defensive cover while using excellent passing range to launch attacks from deep positions. Reads the game well to intercept passes.",
+        "heatmap": "bpd_cover_heatmap.jpg"
+      }
+    ]
+  },
+  {
+    "role": "No-Nonsense Centre-Back",
+    "description": "A traditional, physical defender who focuses purely on defensive duties and clears danger immediately without attempting to play out from the back.",
+    "mentalities": [
+      {
+        "mentality": "Defend",
+        "defensive": 5,
+        "offensive": 1,
+        "instructions": [
+          "More Direct Passes",
+          "Take Fewer Risks",
+          "Dribble Less",
+          "Shoot Less Often",
+          "Hold Position"
+        ],
+        "description": "Focuses exclusively on defensive duties, clearing the ball immediately when under pressure. Strong in the air and in tackles.",
+        "heatmap": "nc_defend_heatmap.jpg"
+      },
+      {
+        "mentality": "Stopper",
+        "defensive": 4.5,
+        "offensive": 1.5,
+        "instructions": [
+          "More Direct Passes",
+          "Take Fewer Risks",
+          "Dribble Less",
+          "Shoot Less Often"
+        ],
+        "description": "Aggressively closes down opponents and wins the ball early, clearing danger immediately rather than playing out.",
+        "heatmap": "nc_stopper_heatmap.jpg"
+      },
+      {
+        "mentality": "Cover",
+        "defensive": 4.5,
+        "offensive": 1,
+        "instructions": [
+          "More Direct Passes",
+          "Take Fewer Risks",
+          "Dribble Less",
+          "Shoot Less Often"
+        ],
+        "description": "Provides cover behind more aggressive defenders, clearing danger decisively when needed. Strong positional sense.",
+        "heatmap": "nc_cover_heatmap.jpg"
+      }
+    ]
+  },
+  {
+    "role": "Wide Centre-Back",
+    "description": "A central defender who operates in wider areas, often in back three systems. Combines defensive solidity with the ability to support attacks in wide areas.",
+    "mentalities": [
+      {
+        "mentality": "Defend",
+        "defensive": 4,
+        "offensive": 2,
+        "instructions": [
+          "Cross From Deep",
+          "Hold Position",
+          "Stay Wider"
+        ],
+        "description": "Focuses on defensive duties in wide areas, marking opposition forwards and covering channels. Rarely ventures forward.",
+        "heatmap": "wcb_defend_heatmap.jpg"
+      },
+      {
+        "mentality": "Support",
+        "defensive": 3.5,
+        "offensive": 3,
+        "instructions": [
+          "Stay Wider"
+        ],
+        "description": "Balances defensive duties with supporting attacks in wide areas, occasionally overlapping or providing passing options.",
+        "heatmap": "wcb_support_heatmap.jpg"
+      },
+      {
+        "mentality": "Attack",
+        "defensive": 3,
+        "offensive": 4,
+        "instructions": [
+          "Cross More Often",
+          "Cross From Byline",
+          "Dribble More",
+          "Stay Wider"
+        ],
+        "description": "Frequently joins attacks in wide areas, providing width and crossing opportunities. Takes more risks defensively.",
+        "heatmap": "wcb_attack_heatmap.jpg"
+      }
+    ]
+  },
+  {
+    "position": "Goalkeeper",
+    "description": "The goalkeeper is the last line of defense, responsible for preventing the opposition from scoring. Modern goalkeepers are also increasingly involved in build-up play and initiating attacks.",
+    "roles": [
+      {
+        "role": "Goalkeeper",
+        "description": "A traditional goalkeeper whose primary responsibility is to stop shots and command his area. He will generally stay on his line and distribute the ball quickly to start counter-attacks.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 5,
+            "offensive": 1,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Stays close to goal line, focuses purely on shot-stopping and commanding his area. Rarely ventures outside the penalty box and prioritizes safety first in distribution.",
+            "heatmap": "gk_defend_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Sweeper Keeper",
+        "description": "A more modern interpretation of the position, the sweeper keeper is comfortable leaving his area to act as a sweeper behind the defense, particularly when facing through balls. Requires good anticipation, acceleration and passing skills.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 2,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Will sweep up behind defense but generally stays closer to his goal than other mentalities. Acts as a safety net but doesn't actively participate in build-up play.",
+            "heatmap": "sk_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 3,
+            "instructions": [
+              "Take More Risks"
+            ],
+            "description": "Proactive in sweeping up through balls and participates actively in build-up play. Will often function as an extra passing option for defenders under pressure.",
+            "heatmap": "sk_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 4,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More"
+            ],
+            "description": "Extremely aggressive in sweeping up through balls and often acts as an 11th outfield player in possession. Takes high risks with positioning and distribution to support attacking play.",
+            "heatmap": "sk_attack_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Full-Back",
+    "description": "Full-backs provide width in both defensive and attacking phases, requiring stamina to cover the entire flank. They balance defensive responsibilities with supporting attacks through overlapping runs or inverted positioning.",
+    "roles": [
+      {
+        "role": "Full-Back",
+        "description": "A traditional full-back who balances defensive duties with supporting attacks. Provides width and can deliver crosses while maintaining defensive solidity.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4.5,
+            "offensive": 2,
+            "instructions": [
+              "Take Fewer Risks",
+              "Cross From Deep",
+              "Hold Position"
+            ],
+            "description": "Focuses primarily on defensive duties, staying deep to protect the flank and mark opposition wingers. Rarely ventures forward.",
+            "heatmap": "fb_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 3.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Balances defensive and attacking responsibilities, making overlapping runs when appropriate while maintaining defensive shape.",
+            "heatmap": "fb_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "Cross More Often",
+              "Get Further Forward"
+            ],
+            "description": "Frequently joins attacks, providing width and delivering crosses. Takes more risks with positioning but still maintains defensive awareness.",
+            "heatmap": "fb_attack_heatmap.jpg"
+          },
+          {
+            "mentality": "Automatic",
+            "defensive": 3.5,
+            "offensive": 3.5,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Adjusts mentality based on team strategy - defends when team is defending, supports in balanced approaches, and attacks when team is pushing forward.",
+            "heatmap": "fb_auto_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Wing-Back",
+        "description": "A more attacking full-back role, often used in systems with three center-backs. Requires exceptional stamina to cover the entire flank with both defensive and offensive responsibilities.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Take Fewer Risks",
+              "Cross From Deep",
+              "Hold Position"
+            ],
+            "description": "While still more attacking than a full-back, focuses more on defensive duties and maintaining width in deeper positions.",
+            "heatmap": "wb_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "Get Further Forward"
+            ],
+            "description": "Frequently pushes forward to provide width and crossing opportunities while still tracking back to defend.",
+            "heatmap": "wb_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Cross From Byline",
+              "Get Further Forward"
+            ],
+            "description": "Highly attacking mentality, essentially operating as a winger. Constantly pushes forward to provide crosses and attacking options while still expected to track back.",
+            "heatmap": "wb_attack_heatmap.jpg"
+          },
+          {
+            "mentality": "Automatic",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing a game. The default balanced option.",
+            "heatmap": "wb_auto_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Complete Wing-Back",
+        "description": "The most demanding wing-back role, expected to be a constant attacking threat while maintaining defensive solidity. Requires world-class stamina and technical ability.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4.5,
+            "instructions": [
+              "Get Further Forward",
+              "Roam From Position",
+              "Stay Wider"
+            ],
+            "description": "A relentless presence on the flank, constantly involved in both defensive and attacking phases. More creative than a standard wing-back with license to take risks.",
+            "heatmap": "cwb_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Cross From Byline",
+              "Get Further Forward",
+              "Roam From Position",
+              "Stay Wider"
+            ],
+            "description": "An ultra-attacking wing-back who essentially operates as a winger. Expected to deliver dangerous crosses and create chances while still providing defensive cover.",
+            "heatmap": "cwb_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Inverted Wing-Back",
+        "description": "A tactically sophisticated wing-back who cuts inside into central areas rather than staying wide. Creates numerical superiority in midfield while maintaining width when needed.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Cross Less Often",
+              "Dribble Less",
+              "Cut Inside With Ball",
+              "Hold Position",
+              "Sit Narrower"
+            ],
+            "description": "Tucks inside to provide defensive cover in midfield areas while maintaining shape. Less adventurous than other mentalities but still provides an option in buildup.",
+            "heatmap": "iwb_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 4,
+            "instructions": [
+              "Cross Less Often",
+              "Cut Inside With Ball",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Moves inside to support midfield play, creating overloads in central areas while still providing defensive cover. A key component in possession-based systems.",
+            "heatmap": "iwb_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 3,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Cross Less Often",
+              "Dribble More",
+              "Cut Inside With Ball",
+              "Get Further Forward",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Aggressively moves inside to support attacks, often functioning as an additional central midfielder in possession. Takes risks to create numerical advantages.",
+            "heatmap": "iwb_attack_heatmap.jpg"
+          },
+          {
+            "mentality": "Automatic",
+            "defensive": 3.5,
+            "offensive": 4,
+            "instructions": [
+              "Cross Less Often",
+              "Cut Inside With Ball",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Intelligently adjusts positioning based on team needs - defending deeper when required, supporting midfield play in balanced situations, or joining attacks when appropriate.",
+            "heatmap": "iwb_auto_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "position": "Wing-Back",
+    "description": "Wing-backs are more advanced than traditional full-backs, operating as key attacking outlets in systems with three center-backs. They require exceptional stamina to cover the entire flank, providing width in attack while maintaining defensive responsibilities.",
+    "roles": [
+      {
+        "role": "Wing-Back",
+        "description": "The standard wing-back role that balances defensive duties with attacking contributions. More advanced than a full-back, often used in 3-5-2 or 5-3-2 formations.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Take Fewer Risks",
+              "Cross From Deep",
+              "Hold Position"
+            ],
+            "description": "While still more attacking than a full-back, focuses primarily on defensive duties and maintaining width in deeper positions. Provides an outlet but doesn't take many risks.",
+            "heatmap": "wb_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "Get Further Forward"
+            ],
+            "description": "The balanced wing-back approach, constantly moving up and down the flank to support both defensive and attacking phases. Provides crosses and maintains width.",
+            "heatmap": "wb_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Cross From Byline",
+              "Get Further Forward"
+            ],
+            "description": "Highly attacking mentality, essentially operating as a winger. Constantly pushes forward to provide crosses and attacking options while still expected to track back.",
+            "heatmap": "wb_attack_heatmap.jpg"
+          },
+          {
+            "mentality": "Automatic",
+            "defensive": 3,
+            "offensive": 4,
+            "instructions": [
+              "No Specific Instructions"
+            ],
+            "description": "Adjusts mentality based on team strategy - more defensive when protecting a lead, more attacking when chasing a game. The default balanced option.",
+            "heatmap": "wb_auto_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Complete Wing-Back",
+        "description": "The most demanding wing-back role, expected to be a constant attacking threat while maintaining defensive solidity. Requires world-class stamina and technical ability.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defensive": 3,
+            "offensive": 4.5,
+            "instructions": [
+              "Get Further Forward",
+              "Roam From Position",
+              "Stay Wider"
+            ],
+            "description": "A relentless presence on the flank, constantly involved in both defensive and attacking phases. More creative than a standard wing-back with license to take risks.",
+            "heatmap": "cwb_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 2,
+            "offensive": 5,
+            "instructions": [
+              "Cross From Byline",
+              "Get Further Forward",
+              "Roam From Position",
+              "Stay Wider"
+            ],
+            "description": "An ultra-attacking wing-back who essentially operates as a winger. Expected to deliver dangerous crosses and create chances while still providing defensive cover.",
+            "heatmap": "cwb_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Inverted Wing-Back",
+        "description": "A tactically sophisticated wing-back who cuts inside into central areas rather than staying wide. Creates numerical superiority in midfield while maintaining width when needed.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defensive": 4,
+            "offensive": 3,
+            "instructions": [
+              "Cross Less Often",
+              "Dribble Less",
+              "Cut Inside With Ball",
+              "Hold Position",
+              "Sit Narrower"
+            ],
+            "description": "Tucks inside to provide defensive cover in midfield areas while maintaining shape. Less adventurous than other mentalities but still provides an option in buildup.",
+            "heatmap": "iwb_defend_heatmap.jpg"
+          },
+          {
+            "mentality": "Support",
+            "defensive": 3.5,
+            "offensive": 4,
+            "instructions": [
+              "Cross Less Often",
+              "Cut Inside With Ball",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Moves inside to support midfield play, creating overloads in central areas while still providing defensive cover. A key component in possession-based systems.",
+            "heatmap": "iwb_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defensive": 3,
+            "offensive": 4.5,
+            "instructions": [
+              "Take More Risks",
+              "Cross Less Often",
+              "Dribble More",
+              "Cut Inside With Ball",
+              "Get Further Forward",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Aggressively moves inside to support attacks, often functioning as an additional central midfielder in possession. Takes risks to create numerical advantages.",
+            "heatmap": "iwb_attack_heatmap.jpg"
+          },
+          {
+            "mentality": "Automatic",
+            "defensive": 3.5,
+            "offensive": 4,
+            "instructions": [
+              "Cross Less Often",
+              "Cut Inside With Ball",
+              "Roam From Position",
+              "Sit Narrower"
+            ],
+            "description": "Intelligently adjusts positioning based on team needs - defending deeper when required, supporting midfield play in balanced situations, or joining attacks when appropriate.",
+            "heatmap": "iwb_auto_heatmap.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]

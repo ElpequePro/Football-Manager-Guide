@@ -145,6 +145,7 @@ function Aside() {
     <aside className="aside-container rounded-xl">
       <nav>
         <ul className="aside-nav">
+          <li className="position-item"><Link className='position-button' to={'/football-manager-guide/'}>Home</Link></li>
           {positions.map((pos) => (
             <li key={pos.name} className="position-item">
               <button
