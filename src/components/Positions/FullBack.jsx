@@ -6,12 +6,12 @@ function FullBack() {
 
     return (
         <main>
-            <h1>Full-Back</h1>
+            <h1 id="full-back">Full-Back</h1>
             <div className="description">
                 <p>Full-backs provide width in both defensive and attacking phases, requiring stamina to cover the entire flank. They balance defensive responsibilities with supporting attacks through overlapping runs or inverted positioning.</p>
             </div>
             <article>
-                <h2 className="role-title">Full-Back</h2>
+            <h2 id="full-back-role" className="role-title">Full-Back</h2>
                 <p className="description">A traditional full-back who balances defensive duties with supporting attacks. Provides width and can deliver crosses while maintaining defensive solidity.</p>
                 <section>
                     <div className="mentality-header">
@@ -98,7 +98,7 @@ function FullBack() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Wing-Back</h2>
+            <h2 id="wing-back-role" className="role-title">Wing-Back</h2>
                 <p className="description">A more attacking full-back role, often used in systems with three center-backs. Requires exceptional stamina to cover the entire flank with both defensive and offensive responsibilities.</p>
                 <section>
                     <div className="mentality-header">
@@ -185,7 +185,7 @@ function FullBack() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">No-Nonsense Full-Back</h2>
+            <h2 id="no-nonsense-full-back-role" className="role-title">No-Nonsense Full-Back</h2>
                 <p className="description">A purely defensive full-back who focuses on simple, effective defending without venturing forward. Clears danger immediately rather than playing out from the back.</p>
                 <section>
                     <div className="mentality-header">
@@ -214,7 +214,7 @@ function FullBack() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Complete Wing-Back</h2>
+            <h2 id="complete-wing-back-role" className="role-title">Complete Wing-Back</h2>
                 <p className="description">The most attacking wing-back role, expected to contribute significantly to both defensive and attacking phases. Requires exceptional stamina and technical ability.</p>
                 <section>
                     <div className="mentality-header">
@@ -263,7 +263,7 @@ function FullBack() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Inverted Wing-Back</h2>
+            <h2 id="inverted-wing-back-role" className="role-title">Inverted Wing-Back</h2>
                 <p className="description">A wing-back who cuts inside into central midfield areas rather than staying wide, creating numerical superiority in midfield while still providing defensive cover.</p>
                 <section>
                     <div className="mentality-header">
@@ -362,7 +362,7 @@ function FullBack() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Inverted Full-Back</h2>
+            <h2 id="inverted-full-back-role" className="role-title">Inverted Full-Back</h2>
                 <p className="description">A more defensive version of the inverted wing-back, primarily tucking inside to provide defensive cover in midfield areas while rarely venturing forward.</p>
                 <section>
                     <div className="mentality-header">

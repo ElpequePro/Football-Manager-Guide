@@ -15,6 +15,10 @@ h2 {
   font-size: 1.8rem;
 }
 
+h1, h2 {
+  scroll-margin-top: 52px;
+}
+
 article {
   background-color: var(--card-bg);
   border-radius: 8px;

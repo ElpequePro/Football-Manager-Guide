@@ -6,12 +6,12 @@ function Goalkeeper() {
 
     return (
         <main>
-            <h1>Goalkeeper</h1>
+            <h1 id="goalkeeper">Goalkeeper</h1>
             <div className="description">
                 <p>The goalkeeper is the last line of defense, responsible for preventing the opposition from scoring. Modern goalkeepers are also increasingly involved in build-up play and initiating attacks.</p>
             </div>
             <article>
-                <h2 className="role-title">Goalkeeper (GK)</h2>
+                <h2 id="goalkeeper-role" className="role-title">Goalkeeper</h2>
                 <p className="description">A traditional goalkeeper whose primary responsibility is to stop shots and command his area. He will generally stay on his line and distribute the ball quickly to start counter-attacks.</p>
                 <section>
                     <div className="mentality-header">
@@ -35,7 +35,7 @@ function Goalkeeper() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Sweeper Keeper (SK)</h2>
+                <h2 id="sweeper-keeper-role" className="role-title">Sweeper Keeper</h2>
                 <p className="description">A more modern interpretation of the position, the sweeper keeper is comfortable leaving his area to act as a sweeper behind the defense, particularly when facing through balls. Requires good anticipation, acceleration and passing skills.</p>
                 <section>
                     <div className="mentality-header">

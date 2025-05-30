@@ -6,12 +6,12 @@ function WideMidfielder() {
 
     return (
         <main>
-            <h1>Wide Midfielder</h1>
+            <h1 id="wide-midfielder">Wide Midfielder</h1>
             <div className="description">
                 <p>Wide midfielders operate along the flanks, providing width and stretching opposition defenses. Their roles range from traditional wingers to more defensively-oriented wide players, offering diverse tactical options for different systems.</p>
             </div>
             <article>
-                <h2 className="role-title">Wide Midfielder</h2>
+            <h2 id="wide-midfielder-role" className="role-title">Wide Midfielder</h2>
                 <p className="description">The standard wide role that balances defensive responsibilities with attacking contributions. More disciplined than pure wingers but still dangerous going forward.</p>
                 <section>
                     <div className="mentality-header">
@@ -98,7 +98,7 @@ function WideMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Winger</h2>
+            <h2 id="winger-role" className="role-title">Winger</h2>
                 <p className="description">A traditional wide attacker who looks to beat defenders with pace and skill before delivering crosses into the box.</p>
                 <section>
                     <div className="mentality-header">
@@ -148,7 +148,7 @@ function WideMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Defensive Winger</h2>
+            <h2 id="defensive-winger-role" className="role-title">Defensive Winger</h2>
                 <p className="description">A hard-working wide player who combines aggressive pressing with attacking contributions.</p>
                 <section>
                     <div className="mentality-header">
@@ -200,7 +200,7 @@ function WideMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Wide Playmaker</h2>
+            <h2 id="wide-playmaker-role" className="role-title">Wide Playmaker</h2>
                 <p className="description">A creative wide player who drifts inside to find space and dictate play from the flanks.</p>
                 <section>
                     <div className="mentality-header">
@@ -255,7 +255,7 @@ function WideMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Inverted Winger</h2>
+            <h2 id="inverted-winger-role" className="role-title">Inverted Winger</h2>
                 <p className="description">A wide attacker who cuts inside onto their stronger foot, creating goal-scoring opportunities and overloading central areas.</p>
                 <section>
                     <div className="mentality-header">

@@ -34,6 +34,8 @@
 body {
   background-color: var(--bg-color);
   color: var(--text);
+  padding: 20px;
+  display: flex;
 }
 
 main {

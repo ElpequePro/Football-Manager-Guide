@@ -6,12 +6,12 @@ function AttackingMidfielder() {
 
     return (
         <main>
-            <h1>Attacking Midfielder</h1>
+            <h1 id="attacking-midfielder">Attacking Midfielder</h1>
             <div className="description">
                 <p>Attacking midfielders operate between the lines, linking midfield and attack. They specialize in creating chances through vision and technique, with some roles focusing more on goalscoring. Their movement and creativity are crucial for breaking down organized defenses.</p>
             </div>
             <article>
-                <h2 className="role-title">Attacking Midfielder</h2>
+            <h2 id="attacking-midfielder-role" className="role-title">Attacking Midfielder</h2>
                 <p className="description">The standard advanced midfield role that connects midfield and attack through intelligent movement and passing.</p>
                 <section>
                     <div className="mentality-header">
@@ -55,7 +55,7 @@ function AttackingMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Advanced Playmaker</h2>
+            <h2 id="advanced-playmaker-role" className="role-title">Advanced Playmaker</h2>
                 <p className="description">The team's primary creative hub in advanced positions, specializing in unlocking defenses with incisive passing and vision.</p>
                 <section>
                     <div className="mentality-header">
@@ -101,7 +101,7 @@ function AttackingMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Trequartista</h2>
+            <h2 id="trequartista-role" className="role-title">Trequartista</h2>
                 <p className="description">A creative free spirit given complete freedom to roam and find space between midfield and attack.</p>
                 <section>
                     <div className="mentality-header">
@@ -129,7 +129,7 @@ function AttackingMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Enganche</h2>
+            <h2 id="enganche-role" className="role-title">Enganche</h2>
                 <p className="description">A traditional static playmaker who operates as the team's focal point in advanced positions, linking play with precise passing.</p>
                 <section>
                     <div className="mentality-header">
@@ -155,7 +155,7 @@ function AttackingMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Shadow Striker</h2>
+            <h2 id="shadow-striker-role" className="role-title">Shadow Striker</h2>
                 <p className="description">An aggressive attacking midfielder who makes runs from deep to support the main striker and score goals.</p>
                 <section>
                     <div className="mentality-header">

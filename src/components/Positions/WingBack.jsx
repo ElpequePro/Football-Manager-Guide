@@ -6,12 +6,12 @@ function WingBack() {
 
     return (
         <main>
-            <h1>Wing-Back</h1>
+            <h1 id="wing-back">Wing-Back</h1>
             <div className="description">
                 <p>Wing-backs are more advanced than traditional full-backs, operating as key attacking outlets in systems with three center-backs. They require exceptional stamina to cover the entire flank, providing width in attack while maintaining defensive responsibilities.</p>
             </div>
             <article>
-                <h2 className="role-title">Wing-Back</h2>
+            <h2 id="wing-back-role" className="role-title">Wing-Back</h2>
                 <p className="description">The standard wing-back role that balances defensive duties with attacking contributions. More advanced than a full-back, often used in 3-5-2 or 5-3-2 formations.</p>
                 <section>
                     <div className="mentality-header">
@@ -98,7 +98,7 @@ function WingBack() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Complete Wing-Back</h2>
+            <h2 id="complete-wing-back-role" className="role-title">Complete Wing-Back</h2>
                 <p className="description">The most demanding wing-back role, expected to be a constant attacking threat while maintaining defensive solidity. Requires world-class stamina and technical ability.</p>
                 <section>
                     <div className="mentality-header">
@@ -147,7 +147,7 @@ function WingBack() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Inverted Wing-Back</h2>
+            <h2 id="inverted-wing-back-role" className="role-title">Inverted Wing-Back</h2>
                 <p className="description">A tactically sophisticated wing-back who cuts inside into central areas rather than staying wide. Creates numerical superiority in midfield while maintaining width when needed.</p>
                 <section>
                     <div className="mentality-header">

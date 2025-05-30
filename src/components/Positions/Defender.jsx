@@ -6,12 +6,12 @@ function Defender() {
 
     return (
         <main>
-            <h1>Defender</h1>
+<h1 id="defender" style={{ scrollMarginTop: '80px' }}>Defender</h1>
             <div className="description">
                 <p>Defenders are responsible for stopping the opposition's attacks and protecting their goal. They play a crucial role in maintaining the team's defensive structure and initiating attacks from the back.</p>
             </div>
             <article>
-                <h2 className="role-title">Central Defender</h2>
+                <h2 id="central-defender-role" className="role-title">Central Defender</h2>
                 <p className="description">A traditional central defender focused on marking, tackling, and clearing danger. Typically strong in the air and excellent at positioning.</p>
                 <section>
                     <div className="mentality-header">
@@ -79,7 +79,7 @@ function Defender() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Libero</h2>
+                <h2 id="libero-role" className="role-title">Libero</h2>
                 <p className="description">A creative defender who operates behind the defensive line, starting attacks with intelligent passing while providing defensive cover.</p>
                 <section>
                     <div className="mentality-header">
@@ -123,7 +123,7 @@ function Defender() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Ball Playing Defender</h2>
+                <h2 id="ball-playing-defender-role" className="role-title">Ball Playing Defender</h2>
                 <p className="description">A central defender with excellent technical skills who looks to start attacks with precise passing while maintaining solid defensive fundamentals.</p>
                 <section>
                     <div className="mentality-header">
@@ -188,7 +188,7 @@ function Defender() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">No-Nonsense Centre-Back</h2>
+                <h2 id="no-nonsense-centre-back-role" className="role-title">No-Nonsense Centre-Back</h2>
                 <p className="description">A traditional, physical defender who focuses purely on defensive duties and clears danger immediately without attempting to play out from the back.</p>
                 <section>
                     <div className="mentality-header">
@@ -262,7 +262,7 @@ function Defender() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Wide Centre-Back</h2>
+                <h2 id="wide-centre-back-role" className="role-title">Wide Centre-Back</h2>
                 <p className="description">A central defender who operates in wider areas, often in back three systems. Combines defensive solidity with the ability to support attacks in wide areas.</p>
                 <section>
                     <div className="mentality-header">

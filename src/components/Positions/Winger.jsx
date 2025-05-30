@@ -6,12 +6,12 @@ function Winger() {
 
     return (
         <main>
-            <h1>Winger</h1>
+            <h1 id="winger">Winger</h1>
             <div className="description">
                 <p>Wingers provide width and creativity from wide positions, stretching defenses and creating chances through crosses, dribbling, or cutting inside. Their roles range from traditional touchline-hugging wingers to inverted forwards who operate as secondary strikers.</p>
             </div>
             <article>
-                <h2 className="role-title">Winger</h2>
+            <h2 id="winger-role" className="role-title">Winger</h2>
                 <p className="description">A traditional wide attacker who stays near the touchline to deliver crosses and beat defenders with pace.</p>
                 <section>
                     <div className="mentality-header">
@@ -61,7 +61,7 @@ function Winger() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Advanced Playmaker</h2>
+            <h2 id="advanced-playmaker-role" className="role-title">Advanced Playmaker</h2>
                 <p className="description">A creative wide player who drifts inside to find space and dictate play from the flanks.</p>
                 <section>
                     <div className="mentality-header">
@@ -112,7 +112,7 @@ function Winger() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Inside Forward</h2>
+            <h2 id="inside-forward-role" className="role-title">Inside Forward</h2>
                 <p className="description">A wide attacker who cuts inside onto their stronger foot to shoot or create chances, operating like a secondary striker.</p>
                 <section>
                     <div className="mentality-header">
@@ -164,7 +164,7 @@ function Winger() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Trequartista</h2>
+            <h2 id="trequartista-role" className="role-title">Trequartista</h2>
                 <p className="description">A creative free spirit given complete freedom to roam across the frontline and find space between defenders.</p>
                 <section>
                     <div className="mentality-header">
@@ -191,7 +191,7 @@ function Winger() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Wide Target Forward</h2>
+            <h2 id="wide-target-forward-role" className="role-title">Wide Target Forward</h2>
                 <p className="description">A physical presence out wide who uses strength to hold up the ball and bring teammates into play.</p>
                 <section>
                     <div className="mentality-header">
@@ -239,7 +239,7 @@ function Winger() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Raumdeuter</h2>
+            <h2 id="raumdeuter-role" className="role-title">Raumdeuter</h2>
                 <p className="description">A specialist who finds pockets of space in dangerous areas without directly engaging defenders.</p>
                 <section>
                     <div className="mentality-header">
@@ -267,7 +267,7 @@ function Winger() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Inverted Winger</h2>
+            <h2 id="inverted-winger-role" className="role-title">Inverted Winger</h2>
                 <p className="description">A wide attacker who cuts inside onto their stronger foot to create overloads in central areas.</p>
                 <section>
                     <div className="mentality-header">

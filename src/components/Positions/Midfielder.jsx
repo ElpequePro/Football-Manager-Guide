@@ -6,12 +6,12 @@ function Midfielder() {
 
     return (
         <main>
-            <h1>Midfielder</h1>
+            <h1 id="midfielder">Midfielder</h1>
             <div className="description">
                 <p>Midfielders are the engine room of any team, connecting defense with attack. Their diverse roles range from destructive ball-winners to creative playmakers, with many hybrid roles in between that dictate a team's playing style.</p>
             </div>
             <article>
-                <h2 className="role-title">Central Midfielder</h2>
+            <h2 id="central-midfielder-role" className="role-title">Central Midfielder</h2>
                 <p className="description">The standard midfield role that provides balance between defense and attack. Adaptable to various tactical approaches through different mentalities.</p>
                 <section>
                     <div className="mentality-header">
@@ -95,7 +95,7 @@ function Midfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Deep Lying Playmaker</h2>
+            <h2 id="deep-lying-playmaker-role" className="role-title">Deep Lying Playmaker</h2>
                 <p className="description">A creative pivot who operates in deeper midfield positions, dictating play with intelligent passing while providing defensive cover.</p>
                 <section>
                     <div className="mentality-header">
@@ -143,7 +143,7 @@ function Midfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Box To Box Midfielder</h2>
+            <h2 id="box-to-box-midfielder-role" className="role-title">Box To Box Midfielder</h2>
                 <p className="description">A dynamic, all-action midfielder who contributes to both defensive and attacking phases with endless energy and stamina.</p>
                 <section>
                     <div className="mentality-header">
@@ -167,7 +167,7 @@ function Midfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Advanced Playmaker</h2>
+            <h2 id="advanced-playmaker-role" className="role-title">Advanced Playmaker</h2>
                 <p className="description">The team's primary creative outlet in advanced midfield positions, specializing in unlocking defenses with incisive passing.</p>
                 <section>
                     <div className="mentality-header">
@@ -214,7 +214,7 @@ function Midfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Ball Winning Midfielder</h2>
+            <h2 id="ball-winning-midfielder-role" className="role-title">Ball Winning Midfielder</h2>
                 <p className="description">An aggressive midfielder who specializes in winning back possession through tackles and interceptions.</p>
                 <section>
                     <div className="mentality-header">
@@ -262,7 +262,7 @@ function Midfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Roaming Playmaker</h2>
+            <h2 id="roaming-playmaker-role" className="role-title">Roaming Playmaker</h2>
                 <p className="description">A dynamic creative midfielder given license to move across the pitch to find space and influence play in all areas.</p>
                 <section>
                     <div className="mentality-header">
@@ -287,7 +287,7 @@ function Midfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Mezzala</h2>
+            <h2 id="mezzala-role" className="role-title">Mezzala</h2>
                 <p className="description">A wide central midfielder who operates in the half-spaces, combining creative play with goal threat through late runs.</p>
                 <section>
                     <div className="mentality-header">
@@ -336,7 +336,7 @@ function Midfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Carrilero</h2>
+            <h2 id="carrilero-role" className="role-title">Carrilero</h2>
                 <p className="description">A specialized central midfielder who covers the half-spaces defensively while providing lateral support in possession.</p>
                 <section>
                     <div className="mentality-header">

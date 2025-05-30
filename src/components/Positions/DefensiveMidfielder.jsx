@@ -6,12 +6,12 @@ function DefensiveMidfielder() {
 
     return (
         <main>
-            <h1>Defensive Midfielder</h1>
+            <h1 id="defensive-midfielder">Defensive Midfielder</h1>
             <div className="description">
                 <p>Defensive midfielders provide the crucial link between defense and attack, specializing in breaking up opposition play, shielding the backline, and initiating attacks. Their positioning and decision-making are vital for team structure.</p>
             </div>
             <article>
-                <h2 className="role-title">Defensive Midfielder</h2>
+            <h2 id="defensive-midfielder-role" className="role-title">Defensive Midfielder</h2>
                 <p className="description">The standard holding midfielder who focuses on defensive stability while providing simple distribution to more creative players.</p>
                 <section>
                     <div className="mentality-header">
@@ -57,7 +57,7 @@ function DefensiveMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Deep Lying Playmaker</h2>
+            <h2 id="deep-lying-playmaker-role" className="role-title">Deep Lying Playmaker</h2>
                 <p className="description">A creative pivot who operates in front of the defense, dictating play with intelligent passing while providing defensive cover.</p>
                 <section>
                     <div className="mentality-header">
@@ -105,7 +105,7 @@ function DefensiveMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Ball Winning Midfielder</h2>
+            <h2 id="ball-winning-midfielder-role" className="role-title">Ball Winning Midfielder</h2>
                 <p className="description">An aggressive midfielder who specializes in winning back possession through tackles and interceptions, then distributing simply to teammates.</p>
                 <section>
                     <div className="mentality-header">
@@ -153,7 +153,7 @@ function DefensiveMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Anchor</h2>
+            <h2 id="anchor-role" className="role-title">Anchor</h2>
                 <p className="description">A purely defensive midfielder who sits deep to protect the backline, intercepting passes and clearing danger without venturing forward.</p>
                 <section>
                     <div className="mentality-header">
@@ -180,7 +180,7 @@ function DefensiveMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Half Back</h2>
+            <h2 id="half-back-role" className="role-title">Half Back</h2>
                 <p className="description">A unique defensive midfielder who drops between center-backs in possession to create a back three, providing extra defensive cover.</p>
                 <section>
                     <div className="mentality-header">
@@ -205,7 +205,7 @@ function DefensiveMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Regista</h2>
+            <h2 id="regista-role" className="role-title">Regista</h2>
                 <p className="description">A deep-lying playmaker with complete creative freedom, orchestrating play from deep positions while still providing defensive cover.</p>
                 <section>
                     <div className="mentality-header">
@@ -230,7 +230,7 @@ function DefensiveMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Roaming Playmaker</h2>
+            <h2 id="roaming-playmaker-role" className="role-title">Roaming Playmaker</h2>
                 <p className="description">A dynamic midfielder who moves across the pitch to find space and influence play, combining defensive work with creative passing.</p>
                 <section>
                     <div className="mentality-header">
@@ -255,7 +255,7 @@ function DefensiveMidfielder() {
                 </section>
             </article>
             <article>
-                <h2 className="role-title">Segundo Volante</h2>
+            <h2 id="segundo-volante-role" className="role-title">Segundo Volante</h2>
                 <p className="description">A dynamic box-to-box midfielder who operates behind a traditional playmaker, making late runs into the box while providing defensive cover.</p>
                 <section>
                     <div className="mentality-header">
