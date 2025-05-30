@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/football-manager-guide/static/css/main.4ccc1388.css",
-    "main.js": "/football-manager-guide/static/js/main.bd216bb5.js",
-    "static/js/453.2a82e7ac.chunk.js": "/football-manager-guide/static/js/453.2a82e7ac.chunk.js",
+    "main.css": "/football-manager-guide/static/css/main.faf88684.css",
+    "main.js": "/football-manager-guide/static/js/main.c0a8eddb.js",
+    "static/js/453.b5756d85.chunk.js": "/football-manager-guide/static/js/453.b5756d85.chunk.js",
     "static/media/GT-America-Standard-Regular-Trial.otf": "/football-manager-guide/static/media/GT-America-Standard-Regular-Trial.f3ce2bb57f0dac202adb.otf",
     "index.html": "/football-manager-guide/index.html",
-    "main.4ccc1388.css.map": "/football-manager-guide/static/css/main.4ccc1388.css.map",
-    "main.bd216bb5.js.map": "/football-manager-guide/static/js/main.bd216bb5.js.map",
-    "453.2a82e7ac.chunk.js.map": "/football-manager-guide/static/js/453.2a82e7ac.chunk.js.map"
+    "main.faf88684.css.map": "/football-manager-guide/static/css/main.faf88684.css.map",
+    "main.c0a8eddb.js.map": "/football-manager-guide/static/js/main.c0a8eddb.js.map",
+    "453.b5756d85.chunk.js.map": "/football-manager-guide/static/js/453.b5756d85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ccc1388.css",
-    "static/js/main.bd216bb5.js"
+    "static/css/main.faf88684.css",
+    "static/js/main.c0a8eddb.js"
   ]
 }
