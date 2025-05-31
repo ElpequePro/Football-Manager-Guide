@@ -26,11 +26,13 @@
   --blue: #77BBFF;
   --green: #55DD55;
   --yellow: #FFCC00;
+  --purple: #BB22FF;
 
   --red-desaturated: #CC4444;
   --blue-desaturated: #66AADD;
   --green-desaturated: #44BB44;
   --yellow-desaturated: #DDBB33;
+  --purple-desaturated: #9922DD;
 }
 
 body {

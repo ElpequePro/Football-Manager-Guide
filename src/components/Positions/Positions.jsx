@@ -61,6 +61,10 @@ function Positions() {
                                         <LuSwords color="var(--red)" />
                                         <StarRating rating={mentality.attack} />
                                     </div>
+                                    <div className="rating rounded-full">
+                                        <LuFlame color="var(--purple)" />
+                                        <StarRating rating={mentality.pressure} />
+                                    </div>
                                 </div>
                             </div>
                             <ul className="mentality-instructions">
