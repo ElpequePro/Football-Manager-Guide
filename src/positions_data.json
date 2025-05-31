@@ -10,7 +10,8 @@
           {
             "mentality": "Defend",
             "defense": 5,
-            "attack": 1,
+            "attack": 0,
+            "pressure": 1,
             "description": "Stays close to goal line, focuses purely on shot-stopping and commanding his area. Rarely ventures outside the penalty box and prioritizes safety first in distribution.",
             "heatmap": "gk_defend_heatmap.jpg"
           }
@@ -24,6 +25,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 2,
+            "pressure": 2,
             "description": "Will sweep up behind defense but generally stays closer to his goal than other mentalities. Acts as a safety net but doesn't actively participate in build-up play.",
             "heatmap": "sk_defend_heatmap.jpg"
           },
@@ -31,6 +33,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 3,
+            "pressure": 3,
             "instructions": [
               "Take More Risks"
             ],
@@ -39,8 +42,9 @@
           },
           {
             "mentality": "Attack",
-            "defense": 2,
-            "attack": 4,
+            "defense": 1.5,
+            "attack": 4.5,
+            "pressure": 1,
             "instructions": [
               "Take More Risks",
               "Dribble More"
@@ -64,6 +68,7 @@
             "mentality": "Defend",
             "defense": 5,
             "attack": 1,
+            "pressure": 2,
             "instructions": [
               "Dribble Less",
               "Shoot Less Often",
@@ -74,8 +79,9 @@
           },
           {
             "mentality": "Stopper",
-            "defense": 4.5,
+            "defense": 4,
             "attack": 2,
+            "pressure": 4,
             "instructions": [
               "Dribble Less",
               "Shoot Less Often"
@@ -85,8 +91,9 @@
           },
           {
             "mentality": "Cover",
-            "defense": 4,
+            "defense": 4.5,
             "attack": 1.5,
+            "pressure": 2,
             "instructions": [
               "Dribble Less",
               "Shoot Less Often"
@@ -104,6 +111,7 @@
             "mentality": "Defend",
             "defense": 4.5,
             "attack": 2,
+            "pressure": 2,
             "instructions": [
               "Hold Position"
             ],
@@ -114,6 +122,7 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 3.5,
+            "pressure": 3,
             "description": "More adventurous in possession, stepping into midfield to support attacks while maintaining defense responsibilities.",
             "heatmap": "liber_support_heatmap.jpg"
           }
@@ -127,6 +136,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 2.5,
+            "pressure": 2,
             "instructions": [
               "Take More Risks",
               "Hold Position"
@@ -138,6 +148,7 @@
             "mentality": "Stopper",
             "defense": 4,
             "attack": 3,
+            "pressure": 3,
             "instructions": [
               "Take More Risks"
             ],
@@ -148,6 +159,7 @@
             "mentality": "Cover",
             "defense": 4.5,
             "attack": 2,
+            "pressure": 2,
             "instructions": [
               "Take More Risks"
             ],
@@ -163,7 +175,8 @@
           {
             "mentality": "Defend",
             "defense": 5,
-            "attack": 1,
+            "attack": 0.5,
+            "pressure": 2,
             "instructions": [
               "More Direct Passes",
               "Take Fewer Risks",
@@ -178,6 +191,7 @@
             "mentality": "Stopper",
             "defense": 4.5,
             "attack": 1.5,
+            "pressure": 4,
             "instructions": [
               "More Direct Passes",
               "Take Fewer Risks",
@@ -191,6 +205,7 @@
             "mentality": "Cover",
             "defense": 4.5,
             "attack": 1,
+            "pressure": 2,
             "instructions": [
               "More Direct Passes",
               "Take Fewer Risks",
@@ -210,6 +225,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 2,
+            "pressure": 2,
             "instructions": [
               "Cross From Deep",
               "Hold Position",
@@ -222,6 +238,7 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 3,
+            "pressure": 3,
             "instructions": [
               "Stay Wider"
             ],
@@ -232,6 +249,7 @@
             "mentality": "Attack",
             "defense": 3,
             "attack": 4,
+            "pressure": 1,
             "instructions": [
               "Cross More Often",
               "Cross From Byline",
@@ -257,6 +275,7 @@
             "mentality": "Defend",
             "defense": 4.5,
             "attack": 2,
+            "pressure": 2,
             "instructions": [
               "Take Fewer Risks",
               "Cross From Deep",
@@ -269,13 +288,15 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 3.5,
+            "pressure": 3,
             "description": "Balances defense and attacking responsibilities, making overlapping runs when appropriate while maintaining defense shape.",
             "heatmap": "fb_support_heatmap.jpg"
           },
           {
             "mentality": "Attack",
-            "defense": 3,
+            "defense": 2.5,
             "attack": 4,
+            "pressure": 2,
             "instructions": [
               "Cross More Often",
               "Get Further Forward"
@@ -287,6 +308,7 @@
             "mentality": "Automatic",
             "defense": 3.5,
             "attack": 3.5,
+            "pressure": 3,
             "description": "Adjusts mentality based on team strategy - defends when team is defending, supports in balanced approaches, and attacks when team is pushing forward.",
             "heatmap": "fb_auto_heatmap.jpg"
           }
@@ -300,6 +322,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 3,
+            "pressure": 3,
             "instructions": [
               "Take Fewer Risks",
               "Cross From Deep",
@@ -312,6 +335,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 4,
+            "pressure": 4,
             "instructions": [
               "Get Further Forward"
             ],
@@ -322,6 +346,7 @@
             "mentality": "Attack",
             "defense": 2,
             "attack": 5,
+            "pressure": 2,
             "instructions": [
               "Cross From Byline",
               "Get Further Forward"
@@ -333,8 +358,31 @@
             "mentality": "Automatic",
             "defense": 3,
             "attack": 4,
+            "pressure": 3,
             "description": "Adjusts mentality based on team strategy - more defense when protecting a lead, more attacking when chasing a game. The default balanced option.",
             "heatmap": "wb_auto_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "No-Nonsense Full-Back",
+        "description": "A defensive full-back who focuses purely on defensive duties, clearing danger immediately without attempting to play out from the back.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defense": 5,
+            "attack": 1,
+            "pressure": 3,
+            "instructions": [
+              "More Direct Passes",
+              "Take Fewer Risks",
+              "Cross Less Often",
+              "Dribble Less",
+              "Shoot Less Often",
+              "Hold Position"
+            ],
+            "description": "Focuses exclusively on defensive duties, staying deep to protect the flank and clearing danger immediately when under pressure.",
+            "heatmap": "nnfb_defend_heatmap.jpg"
           }
         ]
       },
@@ -346,6 +394,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 4.5,
+            "pressure": 4,
             "instructions": [
               "Get Further Forward",
               "Roam From Position",
@@ -358,6 +407,7 @@
             "mentality": "Attack",
             "defense": 2,
             "attack": 5,
+            "pressure": 3,
             "instructions": [
               "Cross From Byline",
               "Get Further Forward",
@@ -377,6 +427,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 3,
+            "pressure": 2,
             "instructions": [
               "Cross Less Often",
               "Dribble Less",
@@ -391,6 +442,7 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 4,
+            "pressure": 3,
             "instructions": [
               "Cross Less Often",
               "Cut Inside With Ball",
@@ -403,7 +455,8 @@
           {
             "mentality": "Attack",
             "defense": 3,
-            "attack": 4.5,
+            "attack": 5,
+            "pressure": 2,
             "instructions": [
               "Take More Risks",
               "Cross Less Often",
@@ -420,6 +473,7 @@
             "mentality": "Automatic",
             "defense": 3.5,
             "attack": 4,
+            "pressure": 3,
             "instructions": [
               "Cross Less Often",
               "Cut Inside With Ball",
@@ -428,6 +482,24 @@
             ],
             "description": "Intelligently adjusts positioning based on team needs - defending deeper when required, supporting midfield play in balanced situations, or joining attacks when appropriate.",
             "heatmap": "iwb_auto_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Inverted Full-Back",
+        "description": "A full-back who tucks inside into central midfield areas when in possession, providing numerical superiority in midfield.",
+        "mentalities": [
+          {
+            "mentality": "Defend",
+            "defense": 4,
+            "attack": 2,
+            "pressure": 3,
+            "instructions": [
+              "Hold Position",
+              "Sit Narrower"
+            ],
+            "description": "Moves inside to provide defensive cover in midfield areas while maintaining defensive shape. Provides a safe passing option in buildup.",
+            "heatmap": "ifb_defend_heatmap.jpg"
           }
         ]
       }
@@ -548,7 +620,7 @@
           {
             "mentality": "Attack",
             "defense": 3,
-            "attack": 4.5,
+            "attack": 5,
             "instructions": [
               "Take More Risks",
               "Cross Less Often",
@@ -579,17 +651,18 @@
     ]
   },
   {
-    "position": "Defense Midfielder",
-    "description": "defense midfielders provide the crucial link between defense and attack, specializing in breaking up opposition play, shielding the backline, and initiating attacks. Their positioning and decision-making are vital for team structure.",
+    "position": "Defensive Midfielder",
+    "description": "Defensive midfielders provide the crucial link between defense and attack, specializing in breaking up opposition play, shielding the backline, and initiating attacks. Their positioning and decision-making are vital for team structure.",
     "roles": [
       {
-        "role": "defense Midfielder",
+        "role": "Defensive Midfielder",
         "description": "The standard holding midfielder who focuses on defense stability while providing simple distribution to more creative players.",
         "mentalities": [
           {
             "mentality": "Defend",
             "defense": 4.5,
             "attack": 2,
+            "pressure": 3,
             "instructions": [
               "Dribble Less",
               "Shoot Less Often",
@@ -602,6 +675,7 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 3.5,
+            "pressure": 4,
             "description": "Balances defense duties with more adventurous positioning, occasionally joining attacks while maintaining defense awareness.",
             "heatmap": "dm_support_heatmap.jpg"
           }
@@ -615,6 +689,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 3,
+            "pressure": 2,
             "instructions": [
               "Dribble Less",
               "Shoot Less Often",
@@ -627,6 +702,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 4,
+            "pressure": 3,
             "instructions": [
               "Take More Risks",
               "Shoot Less Often",
@@ -645,6 +721,7 @@
             "mentality": "Defend",
             "defense": 5,
             "attack": 2,
+            "pressure": 5,
             "instructions": [
               "Take Fewer Risks",
               "Dribble Less",
@@ -659,6 +736,7 @@
             "mentality": "Support",
             "defense": 4,
             "attack": 3,
+            "pressure": 4,
             "instructions": [
               "Tackle Harder"
             ],
@@ -669,12 +747,13 @@
       },
       {
         "role": "Anchor",
-        "description": "A purely defense midfielder who sits deep to protect the backline, intercepting passes and clearing danger without venturing forward.",
+        "description": "A purely defensive midfielder who sits deep to protect the backline, intercepting passes and clearing danger without venturing forward.",
         "mentalities": [
           {
             "mentality": "Defend",
             "defense": 5,
-            "attack": 1,
+            "attack": 0.5,
+            "pressure": 3,
             "instructions": [
               "Take Fewer Risks",
               "Dribble Less",
@@ -688,12 +767,13 @@
       },
       {
         "role": "Half Back",
-        "description": "A unique defense midfielder who drops between center-backs in possession to create a back three, providing extra defense cover.",
+        "description": "A unique defensive midfielder who drops between center-backs in possession to create a back three, providing extra defense cover.",
         "mentalities": [
           {
             "mentality": "Defend",
             "defense": 4.5,
             "attack": 1.5,
+            "pressure": 2,
             "instructions": [
               "Dribble Less",
               "Hold Position"
@@ -709,8 +789,9 @@
         "mentalities": [
           {
             "mentality": "Support",
-            "defense": 3,
+            "defense": 2.5,
             "attack": 4.5,
+            "pressure": 1,
             "instructions": [
               "Take More Risks",
               "Roam From Position"
@@ -728,6 +809,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Take More Risks",
               "Roam From Position"
@@ -745,13 +827,15 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 4,
+            "pressure": 3,
             "description": "Makes supporting runs from deep, arriving late in the box while maintaining defense responsibilities. The balanced option for this role.",
             "heatmap": "sv_support_heatmap.jpg"
           },
           {
             "mentality": "Attack",
             "defense": 2.5,
-            "attack": 5,
+            "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Get Further Forward"
             ],
@@ -774,6 +858,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 2,
+            "pressure": 3,
             "instructions": [
               "Hold Position"
             ],
@@ -784,6 +869,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 3.5,
+            "pressure": 3,
             "description": "Balances defense duties with attacking contributions. Makes supporting runs and participates in both phases of play.",
             "heatmap": "cm_support_heatmap.jpg"
           },
@@ -791,6 +877,7 @@
             "mentality": "Attack",
             "defense": 2.5,
             "attack": 4,
+            "pressure": 2,
             "instructions": [
               "Get Further Forward"
             ],
@@ -801,6 +888,7 @@
             "mentality": "Automatic",
             "defense": 3,
             "attack": 3.5,
+            "pressure": 3,
             "description": "Adjusts mentality based on team strategy - more defense when protecting a lead, more attacking when chasing the game.",
             "heatmap": "cm_auto_heatmap.jpg"
           }
@@ -814,6 +902,7 @@
             "mentality": "Defend",
             "defense": 4,
             "attack": 3,
+            "pressure": 2,
             "instructions": [
               "Dribble Less",
               "Shoot Less Often",
@@ -826,6 +915,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 4,
+            "pressure": 3,
             "instructions": [
               "Take More Risks",
               "Shoot Less Often",
@@ -844,6 +934,7 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 4,
+            "pressure": 4,
             "instructions": [
               "Roam From Position"
             ],
@@ -860,6 +951,7 @@
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Take More Risks",
               "Shoot Less Often"
@@ -871,6 +963,7 @@
             "mentality": "Attack",
             "defense": 2,
             "attack": 5,
+            "pressure": 1,
             "instructions": [
               "Take More Risks",
               "Dribble More",
@@ -889,6 +982,7 @@
             "mentality": "Defend",
             "defense": 5,
             "attack": 2,
+            "pressure": 5,
             "instructions": [
               "Take Fewer Risks",
               "Dribble Less",
@@ -903,6 +997,7 @@
             "mentality": "Support",
             "defense": 4,
             "attack": 3,
+            "pressure": 4,
             "instructions": [
               "Tackle Harder"
             ],
@@ -919,6 +1014,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Take More Risks",
               "Roam From Position"
@@ -936,6 +1032,7 @@
             "mentality": "Support",
             "defense": 3,
             "attack": 4,
+            "pressure": 3,
             "instructions": [
               "Get Further Forward",
               "Roam From Position",
@@ -948,6 +1045,7 @@
             "mentality": "Attack",
             "defense": 2.5,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Take More Risks",
               "Get Further Forward",
@@ -967,6 +1065,7 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 3,
+            "pressure": 3,
             "instructions": [
               "Stay Wider"
             ],
@@ -989,6 +1088,7 @@
             "mentality": "Defend",
             "defense": 4.5,
             "attack": 2,
+            "pressure": 3,
             "instructions": [
               "Take Fewer Risks",
               "Cross From Deep",
@@ -1002,6 +1102,7 @@
             "mentality": "Support",
             "defense": 3.5,
             "attack": 3.5,
+            "pressure": 3,
             "description": "Balances defense work with attacking contributions. Makes supporting runs and delivers crosses while tracking back.",
             "heatmap": "wm_support_heatmap.jpg"
           },
@@ -1009,6 +1110,7 @@
             "mentality": "Attack",
             "defense": 3,
             "attack": 4,
+            "pressure": 2,
             "instructions": [
               "Get Further Forward"
             ],
@@ -1019,6 +1121,7 @@
             "mentality": "Automatic",
             "defense": 3.5,
             "attack": 3.5,
+            "pressure": 3,
             "description": "Adjusts mentality based on team strategy - more defense when protecting a lead, more attacking when chasing the game.",
             "heatmap": "wm_auto_heatmap.jpg"
           }
@@ -1032,6 +1135,7 @@
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Cross More Often",
               "Dribble More",
@@ -1044,6 +1148,7 @@
             "mentality": "Attack",
             "defense": 2,
             "attack": 5,
+            "pressure": 1,
             "instructions": [
               "Cross More Often",
               "Cross From Byline",
@@ -1057,13 +1162,14 @@
         ]
       },
       {
-        "role": "defense Winger",
+        "role": "Defensive Winger",
         "description": "A hard-working wide player who combines aggressive pressing with attacking contributions.",
         "mentalities": [
           {
             "mentality": "Defend",
             "defense": 4.5,
             "attack": 2.5,
+            "pressure": 5,
             "instructions": [
               "Take Fewer Risks",
               "Cross From Deep",
@@ -1078,6 +1184,7 @@
             "mentality": "Support",
             "defense": 4,
             "attack": 3.5,
+            "pressure": 4,
             "instructions": [
               "Cross More Often",
               "Dribble More",
@@ -1098,6 +1205,7 @@
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4.5,
+            "pressure": 1,
             "instructions": [
               "Take More Risks",
               "Cross Less Often",
@@ -1113,6 +1221,7 @@
             "mentality": "Attack",
             "defense": 2,
             "attack": 5,
+            "pressure": 0,
             "instructions": [
               "Take More Risks",
               "Cross Less Often",
@@ -1135,6 +1244,7 @@
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Dribble More",
               "Cut Inside With Ball"
@@ -1144,7 +1254,16 @@
           },
           {
             "mentality": "Attack",
-            "defense": null
+            "defense": 1.5,
+            "attack": 5,
+            "pressure": 1,
+            "instructions": [
+              "Dribble More",
+              "Cut Inside With Ball",
+              "Get Further Forward"
+            ],
+            "description": "Aggressively cuts inside to shoot or create chances, operating as a secondary striker at times.",
+            "heatmap": "iw_attack_heatmap.jpg"
           }
         ]
       }
@@ -1162,6 +1281,7 @@
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4,
+            "pressure": 2,
             "description": "Drops deeper to link play between midfield and attack, creating chances through vision and technique while maintaining some defense responsibility.",
             "heatmap": "am_support_heatmap.jpg"
           },
@@ -1169,6 +1289,7 @@
             "mentality": "Attack",
             "defense": 2,
             "attack": 4.5,
+            "pressure": 1,
             "instructions": [
               "Get Further Forward"
             ],
@@ -1185,6 +1306,7 @@
             "mentality": "Support",
             "defense": 2,
             "attack": 4.5,
+            "pressure": 1,
             "instructions": [
               "Take More Risks",
               "Shoot Less Often"
@@ -1196,6 +1318,7 @@
             "mentality": "Attack",
             "defense": 1.5,
             "attack": 5,
+            "pressure": 0,
             "instructions": [
               "Take More Risks",
               "Dribble More",
@@ -1212,8 +1335,9 @@
         "mentalities": [
           {
             "mentality": "Attack",
-            "defense": 1,
+            "defense": 0,
             "attack": 5,
+            "pressure": 0,
             "instructions": [
               "Take More Risks",
               "Dribble More",
@@ -1234,6 +1358,7 @@
             "mentality": "Support",
             "defense": 2,
             "attack": 4,
+            "pressure": 0,
             "instructions": [
               "Take More Risks",
               "Dribble Less",
@@ -1250,8 +1375,9 @@
         "mentalities": [
           {
             "mentality": "Attack",
-            "defense": 1.5,
+            "defense": 0.5,
             "attack": 5,
+            "pressure": 1,
             "instructions": [
               "Take More Risks",
               "Dribble More",
@@ -1277,6 +1403,7 @@
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Cross More Often",
               "Dribble More",
@@ -1289,6 +1416,7 @@
             "mentality": "Attack",
             "defense": 2,
             "attack": 5,
+            "pressure": 1,
             "instructions": [
               "Cross More Often",
               "Cross From Byline",
@@ -1302,73 +1430,146 @@
         ]
       },
       {
-        "role": "defense Winger",
-        "description": "A hard-working wide player who combines aggressive pressing with attacking contributions.",
+        "role": "Advanced Playmaker",
+        "description": "A creative wide player who drifts inside to find space and dictate play from the flanks.",
         "mentalities": [
           {
-            "mentality": "Defend",
-            "defense": 4.5,
-            "attack": 2.5,
+            "mentality": "Support",
+            "defense": 2,
+            "attack": 4.5,
+            "pressure": 1,
             "instructions": [
-              "Take Fewer Risks",
-              "Cross From Deep",
-              "Hold Position",
-              "Close Down More",
-              "Tackle Harder"
+              "Take More Risks",
+              "Cross Less Often",
+              "Cut Inside With Ball",
+              "Shoot Less Often"
             ],
-            "description": "Focuses on pressing opponents high up the pitch and tracking back defensely while still providing width in attack.",
-            "heatmap": "dw_defend_heatmap.jpg"
+            "description": "Drops deep to receive the ball and create chances from wide areas, focusing on playmaking rather than direct attacking.",
+            "heatmap": "wap_support_heatmap.jpg"
           },
           {
-            "mentality": "Support",
-            "defense": 4,
-            "attack": 3.5,
+            "mentality": "Attack",
+            "defense": 1.5,
+            "attack": 5,
+            "pressure": 0,
             "instructions": [
-              "Cross More Often",
+              "Take More Risks",
+              "Cross Less Often",
               "Dribble More",
-              "Stay Wider",
-              "Close Down More",
-              "Tackle Harder"
+              "Cut Inside With Ball",
+              "Shoot Less Often"
             ],
-            "description": "Aggressively presses opponents while contributing more to attacks through crosses and supporting runs.",
-            "heatmap": "dw_support_heatmap.jpg"
+            "description": "More aggressive in positioning, operating as the team's primary creative outlet from wide areas with license to roam.",
+            "heatmap": "wap_attack_heatmap.jpg"
           }
         ]
       },
       {
-        "role": "Wide Playmaker",
-        "description": "A creative wide player who drifts inside to find space and dictate play from the flanks.",
+        "role": "Inside Forward",
+        "description": "A wide attacker who cuts inside onto their stronger foot to create goal-scoring opportunities.",
         "mentalities": [
           {
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4.5,
-            "instructions": [
-              "Take More Risks",
-              "Cross Less Often",
-              "Cut Inside With Ball",
-              "Shoot Less Often",
-              "Roam From Position",
-              "Sit Narrower"
-            ],
-            "description": "Drops deep to receive the ball and create chances from wide areas while maintaining some defense responsibility.",
-            "heatmap": "wp_support_heatmap.jpg"
-          },
-          {
-            "mentality": "Attack",
-            "defense": 2,
-            "attack": 5,
+            "pressure": 2,
             "instructions": [
               "Take More Risks",
               "Cross Less Often",
               "Dribble More",
               "Cut Inside With Ball",
-              "Shoot Less Often",
-              "Roam From Position",
-              "Sit Narrower"
+              "Get Further Forward"
             ],
-            "description": "More aggressive in positioning, operating as the team's primary creative outlet from wide areas.",
-            "heatmap": "wp_attack_heatmap.jpg"
+            "description": "Cuts inside to link play and create chances while maintaining some defensive responsibility.",
+            "heatmap": "if_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defense": 1.5,
+            "attack": 5,
+            "pressure": 1,
+            "instructions": [
+              "Take More Risks",
+              "Cross Less Often",
+              "Dribble More",
+              "Cut Inside With Ball",
+              "Get Further Forward"
+            ],
+            "description": "Aggressively cuts inside to shoot or create chances, operating as a secondary striker at times.",
+            "heatmap": "if_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Trequartista",
+        "description": "A creative free role wide attacker given complete freedom to roam and find space between the lines.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defense": 0,
+            "attack": 5,
+            "pressure": 0,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Roam From Position",
+              "Ease Off Tackles"
+            ],
+            "description": "Ignores defensive responsibilities completely, focusing solely on finding space and creating chances through individual brilliance.",
+            "heatmap": "wtreq_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Wide Target Forward",
+        "description": "A physical wide attacker who uses strength to hold up the ball and bring teammates into play.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defense": 3,
+            "attack": 3.5,
+            "pressure": 3,
+            "instructions": [
+              "Dribble Less",
+              "Hold Up Ball",
+              "Hold Position"
+            ],
+            "description": "Provides an outlet by holding up play and linking with teammates while maintaining width.",
+            "heatmap": "wtf_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defense": 2.5,
+            "attack": 4,
+            "pressure": 2,
+            "instructions": [
+              "Dribble Less",
+              "Hold Up Ball",
+              "Get Further Forward"
+            ],
+            "description": "More aggressive in attacking positions while still using physicality to hold up play and create chances.",
+            "heatmap": "wtf_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Raumdeuter",
+        "description": "An intelligent wide attacker who specializes in finding and exploiting space in advanced positions.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defense": 1,
+            "attack": 5,
+            "pressure": 1,
+            "instructions": [
+              "Pass It Shorter",
+              "Cross Less Often",
+              "Get Further Forward",
+              "Roam From Position",
+              "Move Into Channels"
+            ],
+            "description": "Focuses on making intelligent runs into dangerous areas between defenders to receive scoring opportunities.",
+            "heatmap": "raum_attack_heatmap.jpg"
           }
         ]
       },
@@ -1380,6 +1581,7 @@
             "mentality": "Support",
             "defense": 2.5,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Dribble More",
               "Cut Inside With Ball"
@@ -1389,8 +1591,9 @@
           },
           {
             "mentality": "Attack",
-            "defense": 2,
+            "defense": 1.5,
             "attack": 5,
+            "pressure": 1,
             "instructions": [
               "Dribble More",
               "Cut Inside With Ball",
@@ -1408,94 +1611,6 @@
     "description": "Strikers are the primary goal-scoring threat, leading the attack with a variety of roles that emphasize finishing, movement, and link-up play.",
     "roles": [
       {
-        "role": "Advanced Forward",
-        "description": "A striker who plays on the shoulder of the last defender, looking to get in behind and score goals.",
-        "mentalities": [
-          {
-            "mentality": "Attack",
-            "defense": 1,
-            "attack": 5,
-            "instructions": [
-              "Get Further Forward",
-              "Move Into Channels",
-              "Take More Risks"
-            ],
-            "description": "Constantly looks to break beyond the defense, making runs behind defenders and focusing on scoring goals.",
-            "heatmap": "af_attack_heatmap.jpg"
-          }
-        ]
-      },
-      {
-        "role": "Complete Forward",
-        "description": "A versatile striker who can score, create, and hold up the ball, contributing in all phases of attack.",
-        "mentalities": [
-          {
-            "mentality": "Support",
-            "defense": 2,
-            "attack": 4.5,
-            "description": "Balances goal-scoring with creative play, linking with teammates and contributing to build-up.",
-            "heatmap": "cf_support_heatmap.jpg"
-          },
-          {
-            "mentality": "Attack",
-            "defense": 1.5,
-            "attack": 5,
-            "instructions": [
-              "Get Further Forward",
-              "Take More Risks"
-            ],
-            "description": "More aggressive in positioning, looking to score and create chances while taking risks.",
-            "heatmap": "cf_attack_heatmap.jpg"
-          }
-        ]
-      },
-      {
-        "role": "Poacher",
-        "description": "A striker who focuses on scoring goals by being in the right place at the right time, often inside the penalty area.",
-        "mentalities": [
-          {
-            "mentality": "Attack",
-            "defense": 1,
-            "attack": 5,
-            "instructions": [
-              "Get Further Forward",
-              "Move Into Channels",
-              "Take More Risks"
-            ],
-            "description": "Focuses on goal-scoring, making quick runs into the box and finishing chances.",
-            "heatmap": "po_attack_heatmap.jpg"
-          }
-        ]
-      },
-      {
-        "role": "Target Man",
-        "description": "A physical striker who holds up the ball and brings others into play, often used as a focal point for attacks.",
-        "mentalities": [
-          {
-            "mentality": "Support",
-            "defense": 2,
-            "attack": 4,
-            "instructions": [
-              "Hold Position",
-              "Take More Risks"
-            ],
-            "description": "Uses physicality to hold up play and create chances for teammates.",
-            "heatmap": "tm_support_heatmap.jpg"
-          },
-          {
-            "mentality": "Attack",
-            "defense": 1.5,
-            "attack": 4.5,
-            "instructions": [
-              "Hold Position",
-              "Take More Risks"
-            ],
-            "description": "More aggressive in attacking, looking to score and create chances while holding up the ball.",
-            "heatmap": "tm_attack_heatmap.jpg"
-          }
-        ]
-      },
-      {
         "role": "Deep Lying Forward",
         "description": "A striker who drops deeper to link play and create chances for others.",
         "mentalities": [
@@ -1503,6 +1618,7 @@
             "mentality": "Support",
             "defense": 2,
             "attack": 4,
+            "pressure": 3,
             "instructions": [
               "Hold Position",
               "Take More Risks"
@@ -1514,6 +1630,7 @@
             "mentality": "Attack",
             "defense": 1.5,
             "attack": 4.5,
+            "pressure": 2,
             "instructions": [
               "Hold Position",
               "Take More Risks"
@@ -1524,13 +1641,108 @@
         ]
       },
       {
+        "role": "Advanced Forward",
+        "description": "A striker who plays on the shoulder of the last defender, looking to get in behind and score goals.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defense": 0.5,
+            "attack": 5,
+            "pressure": 2,
+            "instructions": [
+              "Get Further Forward",
+              "Move Into Channels",
+              "Take More Risks"
+            ],
+            "description": "Constantly looks to break beyond the defense, making runs behind defenders and focusing on scoring goals.",
+            "heatmap": "af_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Target Forward",
+        "description": "A physical striker who holds up the ball and brings others into play, often used as a focal point for attacks.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defense": 2,
+            "attack": 4,
+            "pressure": 2,
+            "instructions": [
+              "Hold Position",
+              "Take More Risks"
+            ],
+            "description": "Uses physicality to hold up play and create chances for teammates.",
+            "heatmap": "tf_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defense": 1.5,
+            "attack": 4.5,
+            "pressure": 1,
+            "instructions": [
+              "Hold Position",
+              "Take More Risks"
+            ],
+            "description": "More aggressive in attacking, looking to score and create chances while holding up the ball.",
+            "heatmap": "tf_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Poacher",
+        "description": "A striker who focuses on scoring goals by being in the right place at the right time, often inside the penalty area.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defense": 0.5,
+            "attack": 5,
+            "pressure": 1,
+            "instructions": [
+              "Get Further Forward",
+              "Move Into Channels",
+              "Take More Risks"
+            ],
+            "description": "Focuses on goal-scoring, making quick runs into the box and finishing chances.",
+            "heatmap": "po_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
+        "role": "Complete Forward",
+        "description": "A versatile striker who can score, create, and hold up the ball, contributing in all phases of attack.",
+        "mentalities": [
+          {
+            "mentality": "Support",
+            "defense": 2,
+            "attack": 4.5,
+            "pressure": 3,
+            "description": "Balances goal-scoring with creative play, linking with teammates and contributing to build-up.",
+            "heatmap": "cf_support_heatmap.jpg"
+          },
+          {
+            "mentality": "Attack",
+            "defense": 1.5,
+            "attack": 5,
+            "pressure": 2,
+            "instructions": [
+              "Get Further Forward",
+              "Take More Risks"
+            ],
+            "description": "More aggressive in positioning, looking to score and create chances while taking risks.",
+            "heatmap": "cf_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
         "role": "Pressing Forward",
         "description": "A striker who leads the press, putting pressure on opposition defenders to win the ball high up the pitch.",
         "mentalities": [
           {
             "mentality": "Support",
             "defense": 3,
-            "attack": 3.5,
+            "attack": 3,
+            "pressure": 5,
             "instructions": [
               "Close Down More",
               "Tackle Harder"
@@ -1541,13 +1753,35 @@
         ]
       },
       {
+        "role": "Trequartista",
+        "description": "A creative free role striker given complete freedom to roam and find space between midfield and attack.",
+        "mentalities": [
+          {
+            "mentality": "Attack",
+            "defense": 0,
+            "attack": 5,
+            "pressure": 0,
+            "instructions": [
+              "Take More Risks",
+              "Dribble More",
+              "Roam From Position",
+              "Move Into Channels",
+              "Ease Off Tackles"
+            ],
+            "description": "Ignores defensive responsibilities completely, focusing solely on finding space and creating chances through individual brilliance.",
+            "heatmap": "treq_attack_heatmap.jpg"
+          }
+        ]
+      },
+      {
         "role": "False Nine",
         "description": "A deep-lying creative forward who drops into midfield to create space for teammates' runs.",
         "mentalities": [
           {
             "mentality": "Support",
-            "defense": 2.5,
+            "defense": 3,
             "attack": 4.5,
+            "pressure": 3,
             "instructions": [
               "Take More Risks",
               "Dribble More"
