@@ -3,7 +3,7 @@ import { FaStar, FaRegStar, FaStarHalfAlt } from 'react-icons/fa';
 const StarRating = ({
     rating,
     totalStars = 5,
-    filledColor = "gold",
+    filledColor = "var(--yellow)",
     emptyColor = "gray"
 }) => {
     const stars = Array.from({ length: totalStars }, (_, index) => {
