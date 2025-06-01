@@ -1,0 +1,179 @@
+[
+    {
+        "style": "mentality",
+        "mentalities": [
+            {
+                "mentality": "Very Defensive",
+                "description": ""
+            },
+            {
+                "mentality": "Defensive",
+                "description": ""
+            },
+            {
+                "mentality": "Cautious",
+                "description": ""
+            },
+            {
+                "mentality": "Balanced",
+                "description": ""
+            },
+            {
+                "mentality": "Positive",
+                "description": ""
+            },
+            {
+                "mentality": "Attacking",
+                "description": ""
+            },
+            {
+                "mentality": "Very Attacking",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "style": "In Possession",
+        "attacking-width": [
+            "Narrow",
+            "Fairly Narrow",
+            "Standard",
+            "Fairly Wide",
+            "Wide"
+        ],
+        "approach-play": [
+            "Pass Into Space",
+            "Play Out Of Defence",
+            "Focus Play Through The Middle",
+            "Focus Play Down The Left",
+            "Focus Play Down The Right",
+            "Overlap Left",
+            "Underlap Left",
+            "Underlap Right",
+            "Overlap Right"
+        ],
+        "passing-directness": [
+            "Much Shorter",
+            "More Shorter",
+            "Slightly Shorter",
+            "Standard",
+            "Slightly More Direct",
+            "More Direct",
+            "Much More Direct",
+            "Extremely Direct"
+        ],
+        "tempo": [
+            "Lower",
+            "Slightly Lower",
+            "Standard",
+            "Slightly Higher",
+            "Higher",
+            "Much Higher"
+        ],
+        "time-wasting": [
+            "Never",
+            "Sometimes",
+            "Frequently",
+            "Whenever Possible"
+        ],
+        "final-third": [
+            [
+                "Mixed Crosses",
+                "Floated Crosses",
+                "Whipped Crosses",
+                "Low Crosses"
+            ],
+            "Shoot On Sight",
+            "Hit Early Crosses",
+            "Work Ball Into Box",
+            "Play For Set Pieces"
+        ],
+        "dribbling": [
+            "Dribble Less",
+            "Run At Defence"
+        ],
+        "creative-freedom": [
+            "Be More Expressive",
+            "Be More Disciplinated"
+        ]
+    },
+    {
+        "style": "In Transition",
+        "when-possession-has-been-lost": [
+            "Counter-Press",
+            "Regroup"
+        ],
+        "when-possession-has-been-won": [
+            "Counter",
+            "Hold Shape"
+        ],
+        "goalkeeper-in-possession": [
+            "Distribute Quickly",
+            "Slow Pace Down"
+        ],
+        "distribute-to-area-player": [
+            "Distribute To Centre-Backs",
+            "Distribute To Full-Backs",
+            "Distribute To Playmaker",
+            "Distribute To Flanks",
+            "Distribute To Target Forward",
+            "Distribute Over Opposition Defence"
+        ],
+        "distribute-to-position": [],
+        "distribution-type": [
+            "Roll It Out",
+            "Throw It Long",
+            "take Short Kicks",
+            "Take Long Kicks"
+        ]
+    },
+    {
+        "style": "Out Of Possession",
+        "defensive-shape": [
+            {
+                "line": "Defensive Line",
+                "line-height": [
+                    "Much Lower",
+                    "Lower",
+                    "Standard",
+                    "Higher",
+                    "Much Higher"
+                ]
+            },
+            {
+                "line": "Line Of Engagement",
+                "line-height": [
+                    "Low Block",
+                    "Mid Block",
+                    "High Press"
+                ]
+            }
+        ],
+        "trigger-press": [
+            [
+                "Much Less Often",
+                "Less Often",
+                "Slightly Less Often",
+                "Slightly More Often",
+                "Much More Often"
+            ],
+            "Prevent Short GK Distribution"
+        ],
+        "tackling": [
+            "Stay On Feet",
+            "Get Stuck In"
+        ],
+        "defensive-line": [
+            "Step Up More",
+            "Drop Off More"
+        ],
+        "pressing-trap": [
+            "Trap Inside",
+            "Trap Outside"
+        ],
+        "cross-engagement": [
+            "Stop Crosses",
+            "Invite Crosses"
+        ]
+    }
+]

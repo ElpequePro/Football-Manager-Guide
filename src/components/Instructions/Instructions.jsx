@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import './Positions.css';
+import './Instructions.css';
 import StarRating from '../StarRating';
 import { LuShield, LuSwords, LuFlame } from 'react-icons/lu';
-import positionsData from './positions.json';
+import positionsData from './instructions.json';
 
 function generateId(text) {
     return text.toLowerCase().replace(/\s+/g, '-').replace(/[()]/g, '');
@@ -25,7 +25,8 @@ function Positions() {
     if (!data) {
         return (
             <main>
-                <h1>Select a Position</h1>
+                <h1>Position Not Found</h1>
+                <p>The position "{position}" does not exist in the data.</p>
             </main>
         );
     }

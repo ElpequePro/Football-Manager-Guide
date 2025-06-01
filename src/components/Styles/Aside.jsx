@@ -3,7 +3,7 @@ import './Aside.css';
 import { IoIosArrowForward } from 'react-icons/io';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 
-import positionsData from '../positions_data.json';
+import StylesData from './styles.json';
 
 
 function generateId(text) {
@@ -18,7 +18,7 @@ function Aside() {
   useEffect(() => {
     if (position) {
       const normalizedPosition = position.toLowerCase().replace(/-/g, '');
-      const matchedPosition = positionsData.find((pos) =>
+      const matchedPosition = StylesData.find((pos) =>
         generateId(pos.position).replace(/-/g, '') === normalizedPosition
       );
       if (matchedPosition) {
@@ -49,37 +49,11 @@ function Aside() {
       <nav>
         <ul className="aside-nav">
           <li className="position-item"><Link className='position-button' to={'/football-manager-guide/'}>Home</Link></li>
-          {positionsData.map((pos) => (
+          {StylesData.map((pos) => (
             <li key={pos.position} className="position-item">
-              <button
-                onClick={() => toggleExpanded(pos.position)}
-                className="position-button"
-                aria-expanded={expanded === pos.position}
-                aria-controls={`${generateId(pos.position)}-roles`}
-              >
+              <button className="position-button">
                 {pos.position}
-                <IoIosArrowForward className={`icon ${expanded === pos.position ? 'open' : ''}`} />
               </button>
-              {expanded === pos.position && (
-                <ul
-                  id={`${generateId(pos.position)}-roles`}
-                  className="roles-list"
-                >
-                  {pos.roles.map((role) => {
-                    const positionSlug = generateId(pos.position);
-                    return (
-                      <li key={role.role} className="role-item">
-                        <Link
-                          to={`/football-manager-guide/${positionSlug}#${generateId(role.role)}-role`}
-                          className="role-link"
-                        >
-                          {role.role}
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              )}
             </li>
           ))}
         </ul>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Aside from './Aside';
-import Positions from './Positions/Positions';
+import Style from './Styles.jsx';
 
 const PositionPage = () => {
   const location = useLocation();
@@ -19,7 +19,7 @@ const PositionPage = () => {
   return (
     <>
       <Aside />
-      <Positions />
+      <Style />
     </>
   );
 };
