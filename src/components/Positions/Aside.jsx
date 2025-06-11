@@ -39,7 +39,7 @@ function Aside() {
     } else {
       setExpanded(name);
       const positionSlug = generateId(name);
-      navigate(`/football-manager-guide/${positionSlug}`);
+      navigate(`/football-manager-guide/positions/${positionSlug}`);
       window.scrollTo(0, 0);
     }
   };
@@ -70,7 +70,7 @@ function Aside() {
                     return (
                       <li key={role.role} className="role-item">
                         <Link
-                          to={`/football-manager-guide/${positionSlug}#${generateId(role.role)}-role`}
+                          to={`/football-manager-guide/positions/${positionSlug}#${generateId(role.role)}-role`}
                           className="role-link"
                         >
                           {role.role}

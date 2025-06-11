@@ -38,8 +38,8 @@ function Aside() {
       window.scrollTo(0, 0);
     } else {
       setExpanded(name);
-      const positionSlug = generateId(name);
-      navigate(`/football-manager-guide/${positionSlug}`);
+      const instructionSlug = generateId(name);
+      navigate(`/football-manager-guide/instructions/${instructionSlug}`);
       window.scrollTo(0, 0);
     }
   };
@@ -66,11 +66,11 @@ function Aside() {
                   className="roles-list"
                 >
                   {pos.roles.map((role) => {
-                    const positionSlug = generateId(pos.position);
+                    const instructionSlug = generateId(pos.position);
                     return (
                       <li key={role.role} className="role-item">
                         <Link
-                          to={`/football-manager-guide/${positionSlug}#${generateId(role.role)}-role`}
+                          to={`/football-manager-guide/instructions/${instructionSlug}#${generateId(role.role)}-role`}
                           className="role-link"
                         >
                           {role.role}

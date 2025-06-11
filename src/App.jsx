@@ -11,8 +11,11 @@ function App() {
       <Routes>
         <Route path="/football-manager-guide/" element={<Home />} />
         <Route path="/football-manager-guide/instructions" element={<InstructionPage />} />
+        <Route path="/football-manager-guide/instructions/:instruction" element={<InstructionPage />} />
         <Route path="/football-manager-guide/styles" element={<StylePage />} />
-        <Route path="/football-manager-guide/:position" element={<PositionPage />} />
+        <Route path="/football-manager-guide/styles/:style" element={<StylePage />} />
+        <Route path="/football-manager-guide/positions" element={<PositionPage />} />
+        <Route path="/football-manager-guide/positions/:position" element={<PositionPage />} />
       </Routes>
     </Router>
   );

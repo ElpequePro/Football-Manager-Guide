@@ -38,8 +38,8 @@ function Aside() {
       window.scrollTo(0, 0);
     } else {
       setExpanded(name);
-      const positionSlug = generateId(name);
-      navigate(`/football-manager-guide/${positionSlug}`);
+      const styleSlug = generateId(name);
+      navigate(`/football-manager-guide/styles/${styleSlug}`);
       window.scrollTo(0, 0);
     }
   };
