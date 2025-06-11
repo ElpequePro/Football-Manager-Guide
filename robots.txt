@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elpequepro.github.io/football-manager-guide/sitemap.xml

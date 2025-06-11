@@ -1,0 +1,69 @@
+/* Styles for sitemap.xml using color palette from react-app/src/assets/styles/index.css */
+
+:root {
+  --bg-color: #111;
+  --primary: #1e88e5;
+  --secondary: #0d47a1;
+  --accent: #64b5f6;
+  --text: #e0e0e0;
+  --card-bg: #1e1e1e;
+
+  --red: #FF5555;
+  --blue: #77BBFF;
+  --green: #55DD55;
+  --yellow: #FFCC00;
+  --purple: #BB22FF;
+
+  --red-desaturated: #CC4444;
+  --blue-desaturated: #66AADD;
+  --green-desaturated: #44BB44;
+  --yellow-desaturated: #DDBB33;
+  --purple-desaturated: #9922DD;
+}
+
+urlset {
+  display: block;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 8px;
+  color: var(--text);
+}
+
+url {
+  display: block;
+  margin-bottom: 15px;
+  padding: 16px;
+  background-color: var(--card-bg);
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+loc {
+  display: block;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 8px;
+  word-break: break-all;
+}
+
+changefreq {
+  display: inline-block;
+  background-color: var(--blue-desaturated);
+  color: var(--text);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  margin-right: 10px;
+}
+
+priority {
+  display: inline-block;
+  background-color: var(--green-desaturated);
+  color: var(--text);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}

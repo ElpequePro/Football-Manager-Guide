@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/football-manager-guide/static/css/main.594eb005.css",
-    "main.js": "/football-manager-guide/static/js/main.7e488e21.js",
+    "main.js": "/football-manager-guide/static/js/main.275d178e.js",
     "static/media/GT-America-Standard-Regular-Trial.otf": "/football-manager-guide/static/media/GT-America-Standard-Regular-Trial.f3ce2bb57f0dac202adb.otf",
     "index.html": "/football-manager-guide/index.html",
     "main.594eb005.css.map": "/football-manager-guide/static/css/main.594eb005.css.map",
-    "main.7e488e21.js.map": "/football-manager-guide/static/js/main.7e488e21.js.map"
+    "main.275d178e.js.map": "/football-manager-guide/static/js/main.275d178e.js.map"
   },
   "entrypoints": [
     "static/css/main.594eb005.css",
-    "static/js/main.7e488e21.js"
+    "static/js/main.275d178e.js"
   ]
 }
